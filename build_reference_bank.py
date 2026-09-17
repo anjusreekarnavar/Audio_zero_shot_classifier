@@ -1,4 +1,5 @@
 import os
+
 import numpy as np
 
 from src.encoder import AudioEncoder
@@ -7,37 +8,56 @@ from src.reference_bank import build_reference_bank
 
 ESC50_ROOT = "/scratch/s5284664/ESC-50-master"
 MANIFEST = "field_queries/manifest_library.csv"
-OUTPUT = "cache/reference_bank.npz"
+
+PROTOTYPE_OUTPUT = "cache/reference_bank.npz"
+EMBEDDING_OUTPUT = "cache/reference_embeddings.npz"
 
 
 os.makedirs("cache", exist_ok=True)
 
 encoder = AudioEncoder()
 
-prototypes = build_reference_bank(
+
+# Build both versions of the reference bank
+prototypes, class_embeddings = build_reference_bank(
     encoder=encoder,
     manifest_path=MANIFEST,
     esc50_root=ESC50_ROOT,
 )
 
+
 print()
 print("Reference bank built!")
 print("Number of classes:", len(prototypes))
 
-for category, embedding in prototypes.items():
+
+# Show their shapes
+for category in prototypes:
+
     print(
         category,
-        embedding.shape,
-        "norm =",
-        np.linalg.norm(embedding),
+        "prototype:",
+        prototypes[category].shape,
+        "individual:",
+        class_embeddings[category].shape,
     )
 
 
-# Save all 20 class prototypes.
+# Save averaged prototypes
 np.savez(
-    OUTPUT,
+    PROTOTYPE_OUTPUT,
     **prototypes,
 )
 
+
+# Save all individual reference embeddings
+np.savez(
+    EMBEDDING_OUTPUT,
+    **class_embeddings,
+)
+
+
 print()
-print("Saved reference bank to:", OUTPUT)
+print("Saved:")
+print(PROTOTYPE_OUTPUT)
+print(EMBEDDING_OUTPUT)
