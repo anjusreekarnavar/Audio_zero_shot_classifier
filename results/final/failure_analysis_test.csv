@@ -1,0 +1,961 @@
+query_id,k,snr_db,tv,top_correct,true_classes,predicted_classes
+test_00000,2,0.0,0.583318,True,"can_opening:0.583, cat:0.417",cat:1.000
+test_00001,2,10.0,0.7660359999999999,True,"can_opening:0.766, pig:0.234",pig:1.000
+test_00002,2,-5.0,0.7836381899999999,True,"can_opening:0.691, siren:0.309","siren:0.216, washing_machine:0.204, vacuum_cleaner:0.199, mouse_click:0.191, cat:0.189"
+test_00003,1,0.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00004,3,0.0,0.866516515,True,"can_opening:0.643, glass_breaking:0.224, siren:0.133","siren:0.514, clock_alarm:0.486"
+test_00005,1,10.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00006,3,10.0,0.76819804,True,"can_opening:0.670, door_wood_knock:0.232, car_horn:0.098","door_wood_knock:0.278, clock_alarm:0.249, frog:0.247, dog:0.226"
+test_00007,1,0.0,0.65114801,True,can_opening:1.000,"can_opening:0.349, keyboard_typing:0.339, mouse_click:0.312"
+test_00008,3,-5.0,0.8530125,True,"can_opening:0.651, clock_alarm:0.202, dog:0.147",dog:1.000
+test_00009,3,0.0,0.67965402,True,"can_opening:0.680, dog:0.197, glass_breaking:0.123","glass_breaking:0.539, dog:0.461"
+test_00010,3,0.0,0.85915901,True,"can_opening:0.688, car_horn:0.171, vacuum_cleaner:0.141","vacuum_cleaner:0.358, washing_machine:0.337, mouse_click:0.305"
+test_00011,1,0.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00012,2,0.0,0.027010164999999975,True,"can_opening:0.580, mouse_click:0.420","can_opening:0.553, mouse_click:0.447"
+test_00013,1,-5.0,0.44479198499999995,True,can_opening:1.000,"can_opening:0.555, vacuum_cleaner:0.445"
+test_00014,1,-5.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00015,3,-5.0,0.77735479,True,"can_opening:0.474, train:0.298, clock_alarm:0.228","clock_alarm:0.223, mouse_click:0.208, siren:0.193, frog:0.193, clock_tick:0.183"
+test_00016,1,10.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00017,1,10.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00018,3,10.0,0.577534,True,"can_opening:0.487, sheep:0.422, frog:0.090",sheep:1.000
+test_00019,2,0.0,0.24341900000000002,True,"can_opening:0.757, train:0.243",can_opening:1.000
+test_00020,2,0.0,0.519315725,True,"can_opening:0.809, washing_machine:0.191","washing_machine:0.360, mouse_click:0.350, can_opening:0.289"
+test_00021,3,-5.0,1.0000000150000001,False,"can_opening:0.596, pig:0.255, train:0.149","frog:0.368, washing_machine:0.333, keyboard_typing:0.299"
+test_00022,3,10.0,0.8912895000000001,True,"can_opening:0.790, clock_alarm:0.109, glass_breaking:0.102",clock_alarm:1.000
+test_00023,2,0.0,0.451376185,True,"can_opening:0.766, glass_breaking:0.234","glass_breaking:0.355, mouse_click:0.331, can_opening:0.314"
+test_00024,3,-5.0,0.8955726169999999,False,"can_opening:0.467, cow:0.430, hen:0.103","mouse_click:0.130, washing_machine:0.114, siren:0.111, car_horn:0.110, vacuum_cleaner:0.109"
+test_00025,2,0.0,0.87246,True,"can_opening:0.872, clock_alarm:0.128",clock_alarm:1.000
+test_00026,1,10.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00027,1,-5.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00028,1,10.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00029,3,10.0,0.5867830549999999,True,"can_opening:0.482, glass_breaking:0.430, cow:0.088","cow:0.350, glass_breaking:0.325, sheep:0.325"
+test_00030,1,0.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00031,1,10.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00032,1,0.0,0.7861185849999999,False,can_opening:1.000,"mouse_click:0.219, can_opening:0.214, glass_breaking:0.198, cat:0.192, hen:0.177"
+test_00033,1,10.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00034,1,10.0,0.0,True,can_opening:1.000,can_opening:1.000
+test_00035,3,-5.0,0.670236505,False,"can_opening:0.561, clock_tick:0.365, keyboard_typing:0.075","mouse_click:0.360, can_opening:0.330, frog:0.310"
+test_00036,3,0.0,0.705746985,True,"can_opening:0.622, dog:0.294, mouse_click:0.084","dog:0.555, hen:0.445"
+test_00037,2,10.0,0.87383698,True,"can_opening:0.874, keyboard_typing:0.126","keyboard_typing:0.538, mouse_click:0.462"
+test_00038,2,-5.0,0.81817798,False,"can_opening:0.818, cat:0.182","frog:0.349, cat:0.348, mouse_click:0.304"
+test_00039,2,-5.0,1.0,False,"can_opening:0.857, sheep:0.143",washing_machine:1.000
+test_00040,2,10.0,0.748867,True,"can_opening:0.749, glass_breaking:0.251",glass_breaking:1.000
+test_00041,1,0.0,0.45764924500000004,True,can_opening:1.000,"can_opening:0.542, train:0.458"
+test_00042,3,0.0,0.5447860000000001,True,"can_opening:0.465, keyboard_typing:0.455, car_horn:0.079",keyboard_typing:1.000
+test_00043,1,10.0,0.554517285,False,can_opening:1.000,"mouse_click:0.555, can_opening:0.445"
+test_00044,3,0.0,0.71318,False,"can_opening:0.564, rooster:0.287, siren:0.150","hen:0.525, rooster:0.475"
+test_00045,2,0.0,0.9159948450000001,False,"can_opening:0.884, keyboard_typing:0.116","sheep:0.102, washing_machine:0.097, frog:0.095, hen:0.095, clock_alarm:0.094"
+test_00046,1,0.0,0.64774395,True,can_opening:1.000,"can_opening:0.352, mouse_click:0.340, frog:0.308"
+test_00047,1,-5.0,0.535033185,False,can_opening:1.000,"mouse_click:0.535, can_opening:0.465"
+test_00048,2,10.0,0.515780975,True,"car_horn:0.771, door_wood_knock:0.229","door_wood_knock:0.267, train:0.257, car_horn:0.255, frog:0.221"
+test_00049,3,0.0,0.7033115,True,"car_horn:0.532, cat:0.297, keyboard_typing:0.171",cat:1.000
+test_00050,3,10.0,0.7184904999999999,True,"car_horn:0.446, keyboard_typing:0.282, train:0.272",keyboard_typing:1.000
+test_00051,1,0.0,0.0,True,car_horn:1.000,car_horn:1.000
+test_00052,2,0.0,0.29259599999999997,True,"car_horn:0.707, door_wood_knock:0.293",car_horn:1.000
+test_00053,3,0.0,0.471093,True,"car_horn:0.529, pig:0.273, can_opening:0.198",car_horn:1.000
+test_00054,2,10.0,0.33468,True,"car_horn:0.665, cow:0.335",car_horn:1.000
+test_00055,1,10.0,0.45537967999999995,True,car_horn:1.000,"car_horn:0.545, siren:0.455"
+test_00056,3,-5.0,0.43883,True,"car_horn:0.561, washing_machine:0.292, vacuum_cleaner:0.147",car_horn:1.000
+test_00057,2,-5.0,0.49421045,True,"car_horn:0.846, cow:0.154","car_horn:0.351, sheep:0.330, cow:0.318"
+test_00058,1,-5.0,0.0,True,car_horn:1.000,car_horn:1.000
+test_00059,2,0.0,0.13069799999999998,True,"car_horn:0.869, washing_machine:0.131",car_horn:1.000
+test_00060,3,-5.0,0.3738105,True,"car_horn:0.626, train:0.261, dog:0.113",car_horn:1.000
+test_00061,2,10.0,0.41875809500000005,True,"car_horn:0.757, dog:0.243","dog:0.358, car_horn:0.338, siren:0.304"
+test_00062,1,0.0,0.0,True,car_horn:1.000,car_horn:1.000
+test_00063,3,-5.0,0.534289965,False,"car_horn:0.747, keyboard_typing:0.135, dog:0.117","frog:0.352, car_horn:0.348, dog:0.299"
+test_00064,2,-5.0,0.13015,True,"car_horn:0.870, keyboard_typing:0.130",car_horn:1.000
+test_00065,3,0.0,0.665706025,False,"car_horn:0.511, washing_machine:0.327, mouse_click:0.162","clock_tick:0.177, clock_alarm:0.176, washing_machine:0.172, mouse_click:0.166, siren:0.161"
+test_00066,2,0.0,0.10395736500000002,True,"car_horn:0.636, clock_alarm:0.364","car_horn:0.532, clock_alarm:0.468"
+test_00067,1,0.0,0.719512945,True,car_horn:1.000,"car_horn:0.280, sheep:0.260, clock_alarm:0.232, clock_tick:0.227"
+test_00068,2,10.0,0.258959435,True,"car_horn:0.802, cow:0.198","car_horn:0.543, cow:0.457"
+test_00069,2,0.0,0.9999999849999999,False,"car_horn:0.715, glass_breaking:0.285","train:0.359, frog:0.329, mouse_click:0.312"
+test_00070,1,0.0,1.0,False,car_horn:1.000,frog:1.000
+test_00071,1,0.0,1.0,False,car_horn:1.000,frog:1.000
+test_00072,3,-5.0,0.537379,True,"car_horn:0.463, washing_machine:0.394, cow:0.143",car_horn:1.000
+test_00073,1,0.0,0.0,True,car_horn:1.000,car_horn:1.000
+test_00074,2,0.0,0.26794399999999996,True,"car_horn:0.732, vacuum_cleaner:0.268",car_horn:1.000
+test_00075,2,-5.0,0.530950095,True,"car_horn:0.881, hen:0.119","car_horn:0.350, hen:0.349, rooster:0.300"
+test_00076,1,0.0,0.0,True,car_horn:1.000,car_horn:1.000
+test_00077,1,10.0,0.48823696000000005,True,car_horn:1.000,"car_horn:0.512, siren:0.488"
+test_00078,3,0.0,0.20940599999999998,True,"car_horn:0.791, glass_breaking:0.105, door_wood_knock:0.104",car_horn:1.000
+test_00079,3,0.0,0.70472003,True,"car_horn:0.476, cat:0.295, sheep:0.228","cat:0.509, hen:0.491"
+test_00080,2,-5.0,0.736981185,False,"car_horn:0.730, cow:0.270","siren:0.265, car_horn:0.263, frog:0.243, hen:0.228"
+test_00081,2,-5.0,0.4749782,True,"car_horn:0.607, can_opening:0.393","car_horn:0.525, mouse_click:0.475"
+test_00082,2,0.0,0.6655222249999999,False,"car_horn:0.564, washing_machine:0.436","clock_alarm:0.184, washing_machine:0.178, clock_tick:0.165, train:0.161, car_horn:0.157"
+test_00083,3,0.0,0.5880345,True,"car_horn:0.412, clock_alarm:0.337, can_opening:0.251",car_horn:1.000
+test_00084,3,-5.0,0.8165730099999999,False,"car_horn:0.556, door_wood_knock:0.261, clock_alarm:0.183","siren:0.268, train:0.261, washing_machine:0.256, clock_alarm:0.215"
+test_00085,3,-5.0,0.48920442499999994,True,"car_horn:0.757, siren:0.139, can_opening:0.104","car_horn:0.372, siren:0.322, mouse_click:0.306"
+test_00086,1,-5.0,0.4582893,True,car_horn:1.000,"car_horn:0.542, siren:0.458"
+test_00087,2,0.0,0.29350200000000004,True,"car_horn:0.706, mouse_click:0.294",car_horn:1.000
+test_00088,1,-5.0,0.0,True,car_horn:1.000,car_horn:1.000
+test_00089,1,10.0,0.0,True,car_horn:1.000,car_horn:1.000
+test_00090,3,0.0,0.475471485,True,"car_horn:0.525, hen:0.325, clock_tick:0.150","car_horn:0.544, siren:0.456"
+test_00091,3,10.0,0.51181312,False,"car_horn:0.509, washing_machine:0.309, clock_tick:0.182","clock_alarm:0.383, clock_tick:0.311, car_horn:0.307"
+test_00092,2,0.0,0.15100899999999998,True,"car_horn:0.849, glass_breaking:0.151",car_horn:1.000
+test_00093,1,0.0,0.0,True,car_horn:1.000,car_horn:1.000
+test_00094,3,10.0,0.37256100000000003,True,"car_horn:0.627, clock_tick:0.262, mouse_click:0.110",car_horn:1.000
+test_00095,1,-5.0,0.7172658700000001,True,car_horn:1.000,"car_horn:0.283, siren:0.257, clock_alarm:0.233, dog:0.228"
+test_00096,1,0.0,0.0,True,cat:1.000,cat:1.000
+test_00097,1,10.0,0.0,True,cat:1.000,cat:1.000
+test_00098,3,0.0,0.723562,True,"cat:0.446, cow:0.277, siren:0.276",siren:1.000
+test_00099,2,0.0,0.30018199999999995,True,"cat:0.700, keyboard_typing:0.300",cat:1.000
+test_00100,3,10.0,0.43085249999999997,True,"cat:0.569, door_wood_knock:0.298, siren:0.133",cat:1.000
+test_00101,2,0.0,0.178929,True,"cat:0.821, clock_tick:0.179",cat:1.000
+test_00102,2,-5.0,0.205005,True,"cat:0.795, cow:0.205",cat:1.000
+test_00103,1,-5.0,0.47092091,True,cat:1.000,"cat:0.529, hen:0.471"
+test_00104,3,-5.0,0.7025055099999999,True,"cat:0.592, hen:0.297, can_opening:0.111","hen:0.527, rooster:0.473"
+test_00105,3,-5.0,0.47589750000000003,True,"cat:0.524, can_opening:0.358, cow:0.118",cat:1.000
+test_00106,2,10.0,0.24687099999999998,True,"cat:0.753, train:0.247",cat:1.000
+test_00107,1,0.0,0.0,True,cat:1.000,cat:1.000
+test_00108,2,10.0,0.19125499999999998,True,"cat:0.809, rooster:0.191",cat:1.000
+test_00109,3,10.0,0.271489,True,"cat:0.729, train:0.148, keyboard_typing:0.123",cat:1.000
+test_00110,1,-5.0,0.5351078499999999,False,cat:1.000,"hen:0.535, cat:0.465"
+test_00111,1,-5.0,0.0,True,cat:1.000,cat:1.000
+test_00112,3,10.0,0.517761065,True,"cat:0.643, keyboard_typing:0.233, hen:0.124","cat:0.358, hen:0.347, rooster:0.295"
+test_00113,1,0.0,1.000000005,False,cat:1.000,"siren:0.265, car_horn:0.256, hen:0.252, frog:0.226"
+test_00114,3,-5.0,0.695082,True,"cat:0.564, hen:0.305, keyboard_typing:0.131",hen:1.000
+test_00115,2,0.0,0.43894200000000005,True,"cat:0.561, pig:0.439",cat:1.000
+test_00116,1,0.0,0.0,True,cat:1.000,cat:1.000
+test_00117,2,-5.0,0.37471133,True,"cat:0.825, siren:0.175","siren:0.550, cat:0.450"
+test_00118,1,0.0,0.0,True,cat:1.000,cat:1.000
+test_00119,3,0.0,0.21224904500000003,True,"cat:0.467, door_wood_knock:0.320, cow:0.212","cat:0.545, door_wood_knock:0.455"
+test_00120,3,10.0,0.3460765,True,"cat:0.654, washing_machine:0.220, door_wood_knock:0.126",cat:1.000
+test_00121,2,0.0,0.658506825,False,"cat:0.806, door_wood_knock:0.194","hen:0.363, cat:0.341, frog:0.295"
+test_00122,3,0.0,0.428778,True,"cat:0.498, train:0.429, mouse_click:0.073","cat:0.518, mouse_click:0.482"
+test_00123,2,10.0,0.47345752,True,"cat:0.669, hen:0.331","hen:0.290, rooster:0.239, cat:0.237, frog:0.235"
+test_00124,1,10.0,0.0,True,cat:1.000,cat:1.000
+test_00125,1,10.0,0.0,True,cat:1.000,cat:1.000
+test_00126,2,0.0,0.17321699999999998,True,"cat:0.827, glass_breaking:0.173",cat:1.000
+test_00127,3,0.0,0.5094021,True,"cat:0.614, can_opening:0.258, car_horn:0.128","cat:0.362, car_horn:0.338, door_wood_knock:0.299"
+test_00128,2,-5.0,0.17977600000000002,True,"cat:0.820, car_horn:0.180",cat:1.000
+test_00129,1,0.0,0.0,True,cat:1.000,cat:1.000
+test_00130,2,10.0,0.17667586000000002,True,"cat:0.676, dog:0.324","dog:0.501, cat:0.499"
+test_00131,1,0.0,0.459093,True,cat:1.000,"cat:0.541, hen:0.459"
+test_00132,3,0.0,0.43487846999999996,True,"cat:0.768, door_wood_knock:0.128, frog:0.104","frog:0.539, cat:0.461"
+test_00133,2,10.0,0.72265,True,"cat:0.723, sheep:0.277",sheep:1.000
+test_00134,3,-5.0,0.32982350000000005,True,"cat:0.670, can_opening:0.169, washing_machine:0.160",cat:1.000
+test_00135,2,-5.0,0.05652119000000003,True,"cat:0.600, car_horn:0.400","cat:0.543, car_horn:0.457"
+test_00136,1,10.0,0.0,True,cat:1.000,cat:1.000
+test_00137,2,0.0,0.18171959999999998,True,"cat:0.720, car_horn:0.280","cat:0.538, car_horn:0.462"
+test_00138,3,10.0,0.575455,True,"cat:0.425, pig:0.402, clock_alarm:0.174",cat:1.000
+test_00139,2,10.0,0.12215699999999999,True,"cat:0.878, keyboard_typing:0.122",cat:1.000
+test_00140,2,10.0,0.15936899999999998,True,"cat:0.841, washing_machine:0.159",cat:1.000
+test_00141,1,10.0,0.46314390000000005,True,cat:1.000,"cat:0.537, hen:0.463"
+test_00142,3,-5.0,0.501814,True,"cat:0.502, hen:0.375, rooster:0.124","hen:0.532, rooster:0.468"
+test_00143,1,0.0,0.0,True,cat:1.000,cat:1.000
+test_00144,1,0.0,0.475612225,True,clock_alarm:1.000,"clock_alarm:0.524, washing_machine:0.476"
+test_00145,1,10.0,0.0,True,clock_alarm:1.000,clock_alarm:1.000
+test_00146,1,10.0,0.0,True,clock_alarm:1.000,clock_alarm:1.000
+test_00147,1,-5.0,0.6438469250000001,True,clock_alarm:1.000,"clock_alarm:0.356, siren:0.330, washing_machine:0.314"
+test_00148,3,0.0,1.00000001,False,"clock_alarm:0.589, cat:0.246, vacuum_cleaner:0.165","siren:0.550, car_horn:0.450"
+test_00149,3,0.0,0.747444035,True,"clock_alarm:0.627, hen:0.253, sheep:0.121","hen:0.548, cow:0.452"
+test_00150,1,-5.0,0.65013705,True,clock_alarm:1.000,"clock_alarm:0.350, mouse_click:0.350, clock_tick:0.301"
+test_00151,1,10.0,0.48427438,True,clock_alarm:1.000,"clock_alarm:0.516, frog:0.484"
+test_00152,2,10.0,0.61518198,False,"clock_alarm:0.738, glass_breaking:0.262","can_opening:0.210, mouse_click:0.209, clock_alarm:0.203, frog:0.196, glass_breaking:0.182"
+test_00153,1,0.0,0.0,True,clock_alarm:1.000,clock_alarm:1.000
+test_00154,2,10.0,0.352175,True,"clock_alarm:0.648, can_opening:0.352",clock_alarm:1.000
+test_00155,2,10.0,0.457619,True,"clock_alarm:0.542, clock_tick:0.458",clock_alarm:1.000
+test_00156,3,0.0,0.746894,True,"clock_alarm:0.461, cat:0.286, hen:0.253",hen:1.000
+test_00157,2,10.0,0.457935555,True,"clock_alarm:0.806, pig:0.194","pig:0.358, clock_alarm:0.348, cow:0.294"
+test_00158,3,0.0,0.6239844999999999,True,"clock_alarm:0.459, washing_machine:0.376, keyboard_typing:0.165","washing_machine:0.554, train:0.446"
+test_00159,3,0.0,0.9999994899999999,False,"clock_alarm:0.494, pig:0.342, car_horn:0.164","washing_machine:0.269, train:0.268, hen:0.244, sheep:0.219"
+test_00160,3,10.0,0.7205938850000001,True,"clock_alarm:0.500, cat:0.360, rooster:0.140","cat:0.279, cow:0.251, hen:0.242, sheep:0.228"
+test_00161,2,10.0,0.733363985,False,"clock_alarm:0.733, rooster:0.267","hen:0.366, cow:0.328, rooster:0.306"
+test_00162,2,-5.0,0.6848609999999999,True,"clock_alarm:0.685, train:0.315",train:1.000
+test_00163,3,10.0,0.4385274,False,"clock_alarm:0.499, washing_machine:0.257, sheep:0.244","cow:0.352, sheep:0.331, clock_alarm:0.317"
+test_00164,1,10.0,0.77220125,False,clock_alarm:1.000,"clock_tick:0.278, can_opening:0.263, mouse_click:0.231, clock_alarm:0.228"
+test_00165,1,-5.0,0.0,True,clock_alarm:1.000,clock_alarm:1.000
+test_00166,2,0.0,0.747522,True,"clock_alarm:0.748, cow:0.252",cow:1.000
+test_00167,2,10.0,0.12334699999999998,True,"clock_alarm:0.877, can_opening:0.123",clock_alarm:1.000
+test_00168,1,-5.0,0.45360596500000006,True,clock_alarm:1.000,"clock_alarm:0.546, siren:0.454"
+test_00169,2,-5.0,0.17401,True,"clock_alarm:0.826, washing_machine:0.174",clock_alarm:1.000
+test_00170,3,10.0,0.31018402,True,"clock_alarm:0.505, car_horn:0.396, pig:0.099","clock_alarm:0.359, car_horn:0.331, siren:0.310"
+test_00171,1,0.0,1.0,False,clock_alarm:1.000,washing_machine:1.000
+test_00172,2,-5.0,0.9999999749999999,False,"clock_alarm:0.667, vacuum_cleaner:0.333","washing_machine:0.513, train:0.487"
+test_00173,3,0.0,0.916215015,False,"clock_alarm:0.490, washing_machine:0.426, can_opening:0.084","mouse_click:0.369, clock_tick:0.331, can_opening:0.299"
+test_00174,1,0.0,0.0,True,clock_alarm:1.000,clock_alarm:1.000
+test_00175,3,10.0,0.19855197000000002,True,"clock_alarm:0.418, siren:0.383, mouse_click:0.199","clock_alarm:0.549, siren:0.451"
+test_00176,1,0.0,0.46187169,True,clock_alarm:1.000,"clock_alarm:0.538, siren:0.462"
+test_00177,3,0.0,0.3415905,True,"clock_alarm:0.658, glass_breaking:0.211, vacuum_cleaner:0.131",clock_alarm:1.000
+test_00178,2,-5.0,0.11980599999999998,True,"clock_alarm:0.880, glass_breaking:0.120",clock_alarm:1.000
+test_00179,1,10.0,0.0,True,clock_alarm:1.000,clock_alarm:1.000
+test_00180,2,-5.0,0.393822,True,"clock_alarm:0.606, train:0.394",clock_alarm:1.000
+test_00181,1,10.0,0.0,True,clock_alarm:1.000,clock_alarm:1.000
+test_00182,1,0.0,0.0,True,clock_alarm:1.000,clock_alarm:1.000
+test_00183,2,-5.0,0.16326300000000002,True,"clock_alarm:0.837, door_wood_knock:0.163",clock_alarm:1.000
+test_00184,2,0.0,0.12156500000000002,True,"clock_alarm:0.878, clock_tick:0.122",clock_alarm:1.000
+test_00185,2,-5.0,0.587676,True,"clock_alarm:0.588, cat:0.412",cat:1.000
+test_00186,1,-5.0,0.66878885,False,clock_alarm:1.000,"washing_machine:0.352, clock_alarm:0.331, siren:0.317"
+test_00187,3,0.0,0.46450769000000003,True,"clock_alarm:0.563, glass_breaking:0.269, door_wood_knock:0.168","clock_alarm:0.535, siren:0.465"
+test_00188,1,0.0,0.0,True,clock_alarm:1.000,clock_alarm:1.000
+test_00189,2,-5.0,0.393250255,True,"clock_alarm:0.715, sheep:0.285","sheep:0.349, cat:0.329, clock_alarm:0.321"
+test_00190,1,-5.0,0.452249035,True,clock_alarm:1.000,"clock_alarm:0.548, siren:0.452"
+test_00191,3,0.0,0.40239800000000003,True,"clock_alarm:0.598, clock_tick:0.316, sheep:0.086",clock_alarm:1.000
+test_00192,2,-5.0,0.839858,True,"clock_tick:0.840, clock_alarm:0.160",clock_alarm:1.000
+test_00193,2,0.0,1.000000015,False,"clock_tick:0.828, glass_breaking:0.172","train:0.531, washing_machine:0.469"
+test_00194,3,-5.0,0.7814479850000001,True,"clock_tick:0.416, rooster:0.377, glass_breaking:0.207","rooster:0.219, hen:0.215, frog:0.191, pig:0.191, cow:0.184"
+test_00195,1,-5.0,1.00000001,False,clock_tick:1.000,"washing_machine:0.267, hen:0.261, train:0.254, siren:0.219"
+test_00196,2,-5.0,0.78731097,False,"clock_tick:0.787, vacuum_cleaner:0.213","washing_machine:0.520, vacuum_cleaner:0.480"
+test_00197,2,0.0,0.64062363,True,"clock_tick:0.581, clock_alarm:0.419","clock_alarm:0.359, washing_machine:0.328, train:0.312"
+test_00198,3,-5.0,0.66262601,True,"clock_tick:0.663, mouse_click:0.182, hen:0.156","mouse_click:0.288, sheep:0.251, hen:0.231, pig:0.231"
+test_00199,3,0.0,0.36776777000000005,True,"clock_tick:0.705, frog:0.166, siren:0.129","frog:0.533, clock_tick:0.467"
+test_00200,2,-5.0,0.747020175,False,"clock_tick:0.713, pig:0.287","sheep:0.268, pig:0.253, frog:0.243, cow:0.236"
+test_00201,1,0.0,0.44967604000000005,True,clock_tick:1.000,"clock_tick:0.550, train:0.450"
+test_00202,1,0.0,1.00000001,False,clock_tick:1.000,"siren:0.220, washing_machine:0.208, train:0.197, keyboard_typing:0.192, hen:0.183"
+test_00203,2,0.0,0.681872,True,"clock_tick:0.682, dog:0.318",dog:1.000
+test_00204,1,10.0,0.47676429000000003,True,clock_tick:1.000,"clock_tick:0.523, door_wood_knock:0.477"
+test_00205,3,0.0,0.8865330100000001,False,"clock_tick:0.749, glass_breaking:0.138, pig:0.113","sheep:0.266, cow:0.260, pig:0.259, frog:0.214"
+test_00206,1,-5.0,0.798673265,False,clock_tick:1.000,"frog:0.217, sheep:0.207, clock_tick:0.201, door_wood_knock:0.190, cow:0.186"
+test_00207,2,-5.0,1.0,False,"clock_tick:0.544, can_opening:0.456","washing_machine:0.541, mouse_click:0.459"
+test_00208,1,10.0,0.45776707000000005,True,clock_tick:1.000,"clock_tick:0.542, clock_alarm:0.458"
+test_00209,3,0.0,0.78601,False,"clock_tick:0.677, pig:0.214, can_opening:0.109","frog:0.555, pig:0.445"
+test_00210,3,0.0,0.15365445500000005,True,"clock_tick:0.567, pig:0.362, door_wood_knock:0.071","pig:0.516, clock_tick:0.484"
+test_00211,1,10.0,0.0,True,clock_tick:1.000,clock_tick:1.000
+test_00212,1,0.0,0.0,True,clock_tick:1.000,clock_tick:1.000
+test_00213,3,-5.0,0.5173513650000001,False,"clock_tick:0.663, can_opening:0.182, car_horn:0.155","mouse_click:0.517, clock_tick:0.483"
+test_00214,2,10.0,0.12725799999999998,True,"clock_tick:0.873, train:0.127",clock_tick:1.000
+test_00215,1,10.0,0.0,True,clock_tick:1.000,clock_tick:1.000
+test_00216,1,-5.0,0.74989722,False,clock_tick:1.000,"keyboard_typing:0.284, clock_tick:0.250, train:0.236, washing_machine:0.230"
+test_00217,1,0.0,0.0,True,clock_tick:1.000,clock_tick:1.000
+test_00218,1,10.0,0.0,True,clock_tick:1.000,clock_tick:1.000
+test_00219,3,-5.0,1.0,False,"clock_tick:0.558, hen:0.365, siren:0.077",frog:1.000
+test_00220,2,10.0,0.80199014,False,"clock_tick:0.618, cow:0.382","car_horn:0.225, clock_alarm:0.201, cow:0.198, pig:0.195, door_wood_knock:0.180"
+test_00221,2,10.0,0.636663,True,"clock_tick:0.637, dog:0.363",dog:1.000
+test_00222,2,0.0,0.8571850000000001,True,"clock_tick:0.857, rooster:0.143","rooster:0.520, hen:0.480"
+test_00223,3,0.0,0.37253062000000003,True,"clock_tick:0.555, clock_alarm:0.260, vacuum_cleaner:0.186","clock_tick:0.368, clock_alarm:0.335, mouse_click:0.298"
+test_00224,3,10.0,0.612645985,True,"clock_tick:0.613, dog:0.234, can_opening:0.153","dog:0.556, can_opening:0.444"
+test_00225,1,10.0,0.0,True,clock_tick:1.000,clock_tick:1.000
+test_00226,3,10.0,0.5925560200000001,True,"clock_tick:0.502, sheep:0.407, can_opening:0.091","sheep:0.542, cow:0.458"
+test_00227,1,-5.0,0.81208146,True,clock_tick:1.000,"clock_tick:0.188, washing_machine:0.171, keyboard_typing:0.169, mouse_click:0.165, clock_alarm:0.156"
+test_00228,1,-5.0,0.45299585500000006,True,clock_tick:1.000,"clock_tick:0.547, frog:0.453"
+test_00229,3,0.0,0.48652595,True,"clock_tick:0.434, car_horn:0.387, siren:0.179","siren:0.355, car_horn:0.334, clock_alarm:0.311"
+test_00230,1,-5.0,0.0,True,clock_tick:1.000,clock_tick:1.000
+test_00231,2,10.0,0.336943175,True,"clock_tick:0.642, siren:0.358","clock_tick:0.340, clock_alarm:0.337, siren:0.323"
+test_00232,1,0.0,0.0,True,clock_tick:1.000,clock_tick:1.000
+test_00233,3,-5.0,0.53568118,True,"clock_tick:0.615, mouse_click:0.197, cow:0.188","clock_tick:0.267, frog:0.259, mouse_click:0.253, clock_alarm:0.220"
+test_00234,3,10.0,0.71044,True,"clock_tick:0.411, glass_breaking:0.299, dog:0.290",dog:1.000
+test_00235,3,-5.0,0.41920988000000003,True,"clock_tick:0.791, vacuum_cleaner:0.109, pig:0.100","pig:0.520, clock_tick:0.480"
+test_00236,2,-5.0,0.656548,True,"clock_tick:0.657, siren:0.343",siren:1.000
+test_00237,1,-5.0,1.0,False,clock_tick:1.000,frog:1.000
+test_00238,3,-5.0,0.7780205,True,"clock_tick:0.453, cow:0.325, frog:0.222",frog:1.000
+test_00239,1,-5.0,0.7191683950000001,True,clock_tick:1.000,"clock_tick:0.281, mouse_click:0.252, clock_alarm:0.234, frog:0.233"
+test_00240,1,10.0,0.45270119,True,cow:1.000,"cow:0.547, sheep:0.453"
+test_00241,2,10.0,0.60077799,True,"cow:0.601, washing_machine:0.399","washing_machine:0.508, vacuum_cleaner:0.492"
+test_00242,2,10.0,0.634878245,True,"cow:0.632, clock_tick:0.368","cow:0.365, pig:0.320, sheep:0.315"
+test_00243,2,10.0,0.26047238000000006,True,"cow:0.785, pig:0.215","cow:0.525, pig:0.475"
+test_00244,3,10.0,0.52811245,True,"cow:0.433, can_opening:0.409, siren:0.158","siren:0.380, cow:0.313, hen:0.307"
+test_00245,1,-5.0,0.4798053,True,cow:1.000,"cow:0.520, sheep:0.480"
+test_00246,2,10.0,0.46853358500000003,True,"cow:0.810, frog:0.190","cow:0.342, frog:0.342, sheep:0.316"
+test_00247,1,0.0,0.693096025,False,cow:1.000,"hen:0.360, sheep:0.333, cow:0.307"
+test_00248,3,10.0,0.31650950999999994,True,"cow:0.584, siren:0.225, car_horn:0.191","siren:0.268, cow:0.267, sheep:0.239, car_horn:0.226"
+test_00249,2,10.0,0.31521621,True,"cow:0.619, frog:0.381","cow:0.356, frog:0.329, sheep:0.315"
+test_00250,1,0.0,0.65888763,True,cow:1.000,"cow:0.341, sheep:0.341, hen:0.318"
+test_00251,3,-5.0,0.811801,True,"cow:0.702, cat:0.188, siren:0.110",cat:1.000
+test_00252,3,-5.0,0.855099,False,"cow:0.519, can_opening:0.336, vacuum_cleaner:0.145","washing_machine:0.534, vacuum_cleaner:0.466"
+test_00253,1,0.0,0.6684658600000001,False,cow:1.000,"sheep:0.345, cow:0.332, hen:0.323"
+test_00254,1,0.0,0.655383975,True,cow:1.000,"cow:0.345, sheep:0.332, hen:0.323"
+test_00255,3,0.0,0.8216507745,False,"cow:0.503, train:0.367, siren:0.130","cat:0.099, sheep:0.096, siren:0.095, mouse_click:0.094, can_opening:0.093"
+test_00256,2,-5.0,0.683891,False,"cow:0.604, dog:0.396","cat:0.354, hen:0.330, dog:0.316"
+test_00257,3,0.0,0.539166,True,"cow:0.477, car_horn:0.461, mouse_click:0.062",car_horn:1.000
+test_00258,1,-5.0,0.6379018,True,cow:1.000,"cow:0.362, sheep:0.336, hen:0.302"
+test_00259,2,10.0,0.44058983500000004,True,"cow:0.809, car_horn:0.191","cow:0.369, sheep:0.317, car_horn:0.314"
+test_00260,2,-5.0,1.0,False,"cow:0.521, rooster:0.479",hen:1.000
+test_00261,2,10.0,0.867815495,False,"cow:0.882, door_wood_knock:0.118","car_horn:0.155, hen:0.151, sheep:0.151, vacuum_cleaner:0.148, cow:0.132"
+test_00262,2,-5.0,0.48923912999999997,True,"cow:0.858, rooster:0.142","cow:0.511, sheep:0.489"
+test_00263,3,0.0,0.47505000999999997,True,"cow:0.525, keyboard_typing:0.269, car_horn:0.206","cow:0.525, sheep:0.475"
+test_00264,2,10.0,0.6242179649999999,True,"cow:0.691, car_horn:0.309","cow:0.376, sheep:0.320, frog:0.304"
+test_00265,1,0.0,0.46854339,True,cow:1.000,"cow:0.531, sheep:0.469"
+test_00266,1,0.0,0.47948952,True,cow:1.000,"cow:0.521, sheep:0.479"
+test_00267,2,-5.0,0.9999999900000001,False,"cow:0.677, keyboard_typing:0.323","sheep:0.275, hen:0.253, frog:0.250, pig:0.222"
+test_00268,3,-5.0,0.6771769350000001,False,"cow:0.763, rooster:0.126, washing_machine:0.111","sheep:0.349, hen:0.328, cow:0.323"
+test_00269,2,10.0,0.07428872999999997,True,"cow:0.533, sheep:0.467","sheep:0.541, cow:0.459"
+test_00270,2,0.0,0.16617800000000002,True,"cow:0.834, cat:0.166",cow:1.000
+test_00271,3,-5.0,0.47028401000000003,True,"cow:0.530, train:0.380, door_wood_knock:0.090","cow:0.536, sheep:0.464"
+test_00272,2,10.0,0.46697587,True,"cow:0.877, train:0.123","cow:0.533, sheep:0.467"
+test_00273,1,-5.0,0.634177845,True,cow:1.000,"cow:0.366, sheep:0.333, hen:0.301"
+test_00274,2,0.0,0.30617208500000004,True,"cow:0.570, cat:0.430","cow:0.348, cat:0.346, sheep:0.306"
+test_00275,3,-5.0,0.28226138,True,"cow:0.538, siren:0.256, car_horn:0.205","siren:0.539, cow:0.461"
+test_00276,2,0.0,0.99999998,False,"cow:0.681, siren:0.319","washing_machine:0.505, vacuum_cleaner:0.495"
+test_00277,3,-5.0,0.99999944,False,"cow:0.779, siren:0.121, rooster:0.100","vacuum_cleaner:0.506, washing_machine:0.494"
+test_00278,1,10.0,0.0,True,cow:1.000,cow:1.000
+test_00279,2,0.0,0.9999999900000001,False,"cow:0.511, train:0.489","washing_machine:0.380, sheep:0.310, hen:0.310"
+test_00280,2,0.0,0.468326465,True,"cow:0.806, vacuum_cleaner:0.194","cow:0.532, sheep:0.468"
+test_00281,3,10.0,0.734713505,False,"cow:0.407, train:0.328, rooster:0.265","hen:0.368, rooster:0.321, frog:0.311"
+test_00282,2,0.0,0.27439068,True,"cow:0.731, siren:0.269","siren:0.544, cow:0.456"
+test_00283,1,10.0,0.46191971,True,cow:1.000,"cow:0.538, sheep:0.462"
+test_00284,1,10.0,0.49022053499999996,True,cow:1.000,"cow:0.510, sheep:0.490"
+test_00285,1,10.0,0.4828437,True,cow:1.000,"cow:0.517, sheep:0.483"
+test_00286,2,-5.0,0.47969501000000003,True,"cow:0.826, siren:0.174","cow:0.520, sheep:0.480"
+test_00287,1,-5.0,0.46014161500000006,True,cow:1.000,"cow:0.540, sheep:0.460"
+test_00288,3,-5.0,0.786077705,True,"dog:0.655, pig:0.235, door_wood_knock:0.110","pig:0.214, sheep:0.209, cow:0.197, frog:0.191, hen:0.189"
+test_00289,3,-5.0,0.493573235,True,"dog:0.709, mouse_click:0.201, keyboard_typing:0.090","dog:0.506, frog:0.494"
+test_00290,2,-5.0,0.445699285,True,"dog:0.754, cow:0.246","dog:0.554, frog:0.446"
+test_00291,3,0.0,0.5962455,True,"dog:0.516, keyboard_typing:0.404, can_opening:0.081",keyboard_typing:1.000
+test_00292,3,-5.0,0.467673885,True,"dog:0.759, keyboard_typing:0.135, vacuum_cleaner:0.106","dog:0.532, frog:0.468"
+test_00293,2,10.0,0.654624,True,"dog:0.655, pig:0.345",pig:1.000
+test_00294,1,-5.0,0.0,True,dog:1.000,dog:1.000
+test_00295,1,10.0,0.0,True,dog:1.000,dog:1.000
+test_00296,2,0.0,0.607606,True,"dog:0.608, sheep:0.392",sheep:1.000
+test_00297,3,0.0,0.781211,True,"dog:0.505, keyboard_typing:0.277, frog:0.219",frog:1.000
+test_00298,3,10.0,0.504485,True,"dog:0.496, mouse_click:0.386, car_horn:0.118",dog:1.000
+test_00299,3,10.0,0.19548211000000001,True,"dog:0.629, washing_machine:0.250, pig:0.121","dog:0.555, washing_machine:0.445"
+test_00300,1,10.0,0.0,True,dog:1.000,dog:1.000
+test_00301,3,-5.0,0.6697772399999999,False,"dog:0.582, frog:0.305, mouse_click:0.113","siren:0.362, dog:0.330, cat:0.308"
+test_00302,1,-5.0,0.0,True,dog:1.000,dog:1.000
+test_00303,1,-5.0,0.0,True,dog:1.000,dog:1.000
+test_00304,3,0.0,0.510839,True,"dog:0.489, door_wood_knock:0.371, train:0.140",dog:1.000
+test_00305,2,-5.0,0.142787,True,"dog:0.857, hen:0.143",dog:1.000
+test_00306,3,-5.0,0.40764601999999994,True,"dog:0.509, door_wood_knock:0.408, clock_alarm:0.083","dog:0.548, clock_alarm:0.452"
+test_00307,1,0.0,0.727661665,True,dog:1.000,"dog:0.272, frog:0.261, cow:0.237, cat:0.230"
+test_00308,1,10.0,0.0,True,dog:1.000,dog:1.000
+test_00309,1,0.0,0.0,True,dog:1.000,dog:1.000
+test_00310,3,-5.0,0.575971,True,"dog:0.424, keyboard_typing:0.383, door_wood_knock:0.193",dog:1.000
+test_00311,2,-5.0,0.14907099999999998,True,"dog:0.851, keyboard_typing:0.149",dog:1.000
+test_00312,3,-5.0,0.415384,True,"dog:0.585, washing_machine:0.286, can_opening:0.129",dog:1.000
+test_00313,3,0.0,0.54484,True,"dog:0.455, clock_tick:0.275, mouse_click:0.270","dog:0.520, frog:0.480"
+test_00314,2,-5.0,0.348245,True,"dog:0.652, clock_alarm:0.348",dog:1.000
+test_00315,1,10.0,0.0,True,dog:1.000,dog:1.000
+test_00316,1,-5.0,0.0,True,dog:1.000,dog:1.000
+test_00317,3,-5.0,0.45917226499999997,True,"dog:0.555, rooster:0.229, sheep:0.216","dog:0.541, hen:0.459"
+test_00318,3,10.0,0.357550035,True,"dog:0.720, cat:0.185, hen:0.094","dog:0.363, cat:0.332, hen:0.305"
+test_00319,1,10.0,0.0,True,dog:1.000,dog:1.000
+test_00320,3,0.0,0.445933,True,"dog:0.554, cow:0.273, vacuum_cleaner:0.173",dog:1.000
+test_00321,3,-5.0,0.44050241500000004,True,"dog:0.454, keyboard_typing:0.303, door_wood_knock:0.244","door_wood_knock:0.350, frog:0.335, dog:0.316"
+test_00322,1,10.0,0.0,True,dog:1.000,dog:1.000
+test_00323,2,-5.0,0.4932902599999999,True,"dog:0.711, car_horn:0.289","dog:0.271, cow:0.257, hen:0.237, car_horn:0.235"
+test_00324,2,-5.0,0.159555,True,"dog:0.840, train:0.160",dog:1.000
+test_00325,3,0.0,0.31590250000000003,True,"dog:0.684, car_horn:0.206, glass_breaking:0.109",dog:1.000
+test_00326,3,10.0,0.301731075,True,"dog:0.711, train:0.167, glass_breaking:0.122","dog:0.531, train:0.469"
+test_00327,2,-5.0,0.159493,True,"dog:0.841, keyboard_typing:0.159",dog:1.000
+test_00328,2,10.0,0.5027695999999999,False,"dog:0.770, rooster:0.230","hen:0.503, dog:0.497"
+test_00329,2,0.0,0.28022,True,"dog:0.720, train:0.280",dog:1.000
+test_00330,1,-5.0,0.0,True,dog:1.000,dog:1.000
+test_00331,2,0.0,0.307874745,True,"dog:0.574, pig:0.426","dog:0.380, pig:0.312, cow:0.308"
+test_00332,2,0.0,0.46818574,True,"dog:0.771, cow:0.229","cow:0.372, sheep:0.325, dog:0.303"
+test_00333,3,-5.0,0.51688571,False,"dog:0.707, washing_machine:0.154, clock_alarm:0.139","hen:0.517, dog:0.483"
+test_00334,1,10.0,0.7657576399999999,False,dog:1.000,"cat:0.280, rooster:0.246, hen:0.239, dog:0.234"
+test_00335,2,0.0,0.7393641799999999,False,"dog:0.612, can_opening:0.388","hen:0.275, dog:0.261, cat:0.233, frog:0.231"
+test_00336,2,0.0,0.84384298,True,"door_wood_knock:0.844, keyboard_typing:0.156","keyboard_typing:0.505, mouse_click:0.495"
+test_00337,1,0.0,0.0,True,door_wood_knock:1.000,door_wood_knock:1.000
+test_00338,3,0.0,0.815802,True,"door_wood_knock:0.620, train:0.196, cat:0.184",cat:1.000
+test_00339,1,0.0,0.61700044,True,door_wood_knock:1.000,"door_wood_knock:0.383, washing_machine:0.309, siren:0.308"
+test_00340,2,10.0,0.418362,True,"door_wood_knock:0.582, clock_tick:0.418",door_wood_knock:1.000
+test_00341,1,-5.0,0.45206040000000003,True,door_wood_knock:1.000,"door_wood_knock:0.548, frog:0.452"
+test_00342,1,0.0,0.7399709050000001,False,door_wood_knock:1.000,"train:0.275, door_wood_knock:0.260, siren:0.237, mouse_click:0.229"
+test_00343,3,10.0,0.44209352999999996,True,"door_wood_knock:0.738, clock_tick:0.155, clock_alarm:0.107","clock_alarm:0.549, door_wood_knock:0.451"
+test_00344,1,0.0,0.0,True,door_wood_knock:1.000,door_wood_knock:1.000
+test_00345,1,-5.0,0.0,True,door_wood_knock:1.000,door_wood_knock:1.000
+test_00346,2,0.0,0.748433,True,"door_wood_knock:0.748, cat:0.252",cat:1.000
+test_00347,1,0.0,0.641011755,True,door_wood_knock:1.000,"door_wood_knock:0.359, train:0.338, washing_machine:0.303"
+test_00348,2,10.0,0.584437,True,"door_wood_knock:0.584, cow:0.416",cow:1.000
+test_00349,1,0.0,0.0,True,door_wood_knock:1.000,door_wood_knock:1.000
+test_00350,1,-5.0,0.453621465,True,door_wood_knock:1.000,"door_wood_knock:0.546, frog:0.454"
+test_00351,2,10.0,0.564684,True,"door_wood_knock:0.565, train:0.435",train:1.000
+test_00352,1,10.0,0.0,True,door_wood_knock:1.000,door_wood_knock:1.000
+test_00353,1,10.0,0.0,True,door_wood_knock:1.000,door_wood_knock:1.000
+test_00354,1,0.0,0.0,True,door_wood_knock:1.000,door_wood_knock:1.000
+test_00355,1,0.0,0.671669175,False,door_wood_knock:1.000,"washing_machine:0.350, door_wood_knock:0.328, train:0.322"
+test_00356,2,0.0,1.0000000450000002,False,"door_wood_knock:0.732, cat:0.268","hen:0.273, frog:0.268, siren:0.231, cow:0.229"
+test_00357,3,0.0,0.6058545000000001,True,"door_wood_knock:0.606, train:0.252, sheep:0.142","sheep:0.347, cow:0.329, train:0.324"
+test_00358,2,0.0,0.7577240000000001,True,"door_wood_knock:0.758, cat:0.242",cat:1.000
+test_00359,3,0.0,0.8385294799999999,True,"door_wood_knock:0.458, cow:0.380, hen:0.161","hen:0.550, frog:0.450"
+test_00360,1,10.0,0.44993222499999996,True,door_wood_knock:1.000,"door_wood_knock:0.550, frog:0.450"
+test_00361,1,0.0,0.0,True,door_wood_knock:1.000,door_wood_knock:1.000
+test_00362,3,-5.0,0.7908095,True,"door_wood_knock:0.589, cat:0.209, mouse_click:0.202",cat:1.000
+test_00363,3,-5.0,0.662174985,True,"door_wood_knock:0.427, train:0.338, glass_breaking:0.235","train:0.526, washing_machine:0.474"
+test_00364,3,10.0,0.834238995,True,"door_wood_knock:0.632, pig:0.202, sheep:0.166","sheep:0.361, hen:0.327, cow:0.313"
+test_00365,3,10.0,0.80212997,True,"door_wood_knock:0.706, pig:0.198, can_opening:0.096","pig:0.378, cow:0.317, sheep:0.305"
+test_00366,3,-5.0,0.703241785,False,"door_wood_knock:0.664, clock_tick:0.236, glass_breaking:0.100","washing_machine:0.367, train:0.336, door_wood_knock:0.297"
+test_00367,3,10.0,0.588909,True,"door_wood_knock:0.523, frog:0.411, vacuum_cleaner:0.066",frog:1.000
+test_00368,3,10.0,0.10714648499999996,True,"door_wood_knock:0.473, keyboard_typing:0.440, pig:0.087","keyboard_typing:0.547, door_wood_knock:0.453"
+test_00369,3,0.0,1.000000015,False,"door_wood_knock:0.402, pig:0.333, rooster:0.265","hen:0.542, frog:0.458"
+test_00370,3,10.0,0.72444803,True,"door_wood_knock:0.456, washing_machine:0.276, rooster:0.269","washing_machine:0.280, hen:0.241, cow:0.240, train:0.239"
+test_00371,2,-5.0,1.0,False,"door_wood_knock:0.874, car_horn:0.126",siren:1.000
+test_00372,1,10.0,0.5294318899999999,False,door_wood_knock:1.000,"keyboard_typing:0.529, door_wood_knock:0.471"
+test_00373,3,10.0,0.387626445,False,"door_wood_knock:0.620, car_horn:0.205, washing_machine:0.175","train:0.278, car_horn:0.263, door_wood_knock:0.233, washing_machine:0.227"
+test_00374,1,-5.0,1.0,False,door_wood_knock:1.000,train:1.000
+test_00375,1,-5.0,0.44849700000000003,True,door_wood_knock:1.000,"door_wood_knock:0.552, siren:0.448"
+test_00376,2,10.0,0.24827965,True,"door_wood_knock:0.699, cat:0.301","cat:0.549, door_wood_knock:0.451"
+test_00377,3,10.0,0.32117219999999996,True,"door_wood_knock:0.444, siren:0.373, vacuum_cleaner:0.182","door_wood_knock:0.369, washing_machine:0.321, siren:0.310"
+test_00378,3,10.0,0.555776,True,"door_wood_knock:0.457, frog:0.444, car_horn:0.099",frog:1.000
+test_00379,3,0.0,0.551032,True,"door_wood_knock:0.449, rooster:0.328, keyboard_typing:0.223",door_wood_knock:1.000
+test_00380,2,-5.0,0.248499235,True,"door_wood_knock:0.696, siren:0.304","siren:0.553, door_wood_knock:0.447"
+test_00381,2,0.0,0.8189299999999999,True,"door_wood_knock:0.819, glass_breaking:0.181",glass_breaking:1.000
+test_00382,2,0.0,0.70372102,True,"door_wood_knock:0.704, train:0.296","train:0.532, siren:0.468"
+test_00383,3,10.0,0.8077585,True,"door_wood_knock:0.563, cow:0.245, car_horn:0.192",car_horn:1.000
+test_00384,2,10.0,0.3098679,True,"frog:0.633, sheep:0.367","frog:0.374, sheep:0.317, cow:0.310"
+test_00385,3,-5.0,0.5502437800000001,True,"frog:0.702, sheep:0.197, washing_machine:0.100","sheep:0.267, frog:0.252, cow:0.246, hen:0.234"
+test_00386,2,10.0,0.127745,True,"frog:0.872, hen:0.128",frog:1.000
+test_00387,3,-5.0,0.591771,True,"frog:0.408, clock_tick:0.321, cow:0.271",frog:1.000
+test_00388,3,-5.0,0.3148365,True,"frog:0.685, cat:0.178, cow:0.137",frog:1.000
+test_00389,1,10.0,0.0,True,frog:1.000,frog:1.000
+test_00390,2,-5.0,0.14191600000000001,True,"frog:0.858, pig:0.142",frog:1.000
+test_00391,3,10.0,0.614086,True,"frog:0.386, mouse_click:0.329, can_opening:0.285",frog:1.000
+test_00392,2,10.0,0.313303,True,"frog:0.687, car_horn:0.313",frog:1.000
+test_00393,3,-5.0,1.0,False,"frog:0.382, cow:0.378, clock_alarm:0.240","washing_machine:0.504, train:0.496"
+test_00394,3,-5.0,0.308251,True,"frog:0.692, train:0.218, vacuum_cleaner:0.090",frog:1.000
+test_00395,2,10.0,0.24567399999999998,True,"frog:0.754, can_opening:0.246",frog:1.000
+test_00396,3,-5.0,0.54555798,True,"frog:0.473, cow:0.454, door_wood_knock:0.073","cow:0.528, sheep:0.472"
+test_00397,2,10.0,0.279431,True,"frog:0.721, clock_tick:0.279",frog:1.000
+test_00398,3,10.0,0.22585964999999997,True,"frog:0.583, mouse_click:0.264, pig:0.153","frog:0.357, mouse_click:0.347, pig:0.296"
+test_00399,2,-5.0,0.43718500000000005,True,"frog:0.563, washing_machine:0.437",frog:1.000
+test_00400,3,-5.0,0.379618,True,"frog:0.620, pig:0.228, can_opening:0.151",frog:1.000
+test_00401,2,10.0,0.23417,True,"frog:0.766, can_opening:0.234",frog:1.000
+test_00402,3,0.0,0.38912599999999997,True,"frog:0.611, clock_alarm:0.296, sheep:0.093",frog:1.000
+test_00403,1,-5.0,0.0,True,frog:1.000,frog:1.000
+test_00404,1,10.0,0.0,True,frog:1.000,frog:1.000
+test_00405,3,10.0,0.4584825,True,"frog:0.542, washing_machine:0.347, vacuum_cleaner:0.111",frog:1.000
+test_00406,2,10.0,0.241854,True,"frog:0.758, washing_machine:0.242",frog:1.000
+test_00407,1,10.0,0.0,True,frog:1.000,frog:1.000
+test_00408,1,10.0,0.0,True,frog:1.000,frog:1.000
+test_00409,3,10.0,0.45635800000000004,True,"frog:0.544, train:0.312, mouse_click:0.144",frog:1.000
+test_00410,3,10.0,0.10026202500000003,True,"frog:0.503, cat:0.396, train:0.100","frog:0.508, cat:0.492"
+test_00411,2,-5.0,0.49880152999999994,True,"frog:0.693, cow:0.307","frog:0.501, hen:0.499"
+test_00412,2,-5.0,0.17315100000000003,True,"frog:0.827, cow:0.173",frog:1.000
+test_00413,2,10.0,0.499482,True,"frog:0.501, pig:0.499",frog:1.000
+test_00414,1,-5.0,0.0,True,frog:1.000,frog:1.000
+test_00415,1,-5.0,0.0,True,frog:1.000,frog:1.000
+test_00416,3,10.0,0.69432399,True,"frog:0.387, door_wood_knock:0.308, clock_tick:0.306","clock_tick:0.357, mouse_click:0.338, clock_alarm:0.305"
+test_00417,2,-5.0,0.16668899999999998,True,"frog:0.833, clock_alarm:0.167",frog:1.000
+test_00418,2,-5.0,0.38473500000000005,True,"frog:0.615, keyboard_typing:0.385",frog:1.000
+test_00419,3,10.0,0.437198,True,"frog:0.563, sheep:0.350, cow:0.087",frog:1.000
+test_00420,2,0.0,0.157497,True,"frog:0.843, door_wood_knock:0.157",frog:1.000
+test_00421,1,0.0,0.0,True,frog:1.000,frog:1.000
+test_00422,1,0.0,0.0,True,frog:1.000,frog:1.000
+test_00423,2,-5.0,0.33017900499999997,True,"frog:0.602, cow:0.398","frog:0.366, pig:0.330, cow:0.303"
+test_00424,1,10.0,0.0,True,frog:1.000,frog:1.000
+test_00425,1,10.0,0.0,True,frog:1.000,frog:1.000
+test_00426,1,10.0,0.0,True,frog:1.000,frog:1.000
+test_00427,1,-5.0,0.0,True,frog:1.000,frog:1.000
+test_00428,3,0.0,0.19425499999999996,True,"frog:0.598, cow:0.252, cat:0.150","frog:0.554, cow:0.446"
+test_00429,2,0.0,0.305237,True,"frog:0.695, washing_machine:0.305",frog:1.000
+test_00430,1,0.0,0.0,True,frog:1.000,frog:1.000
+test_00431,1,0.0,0.0,True,frog:1.000,frog:1.000
+test_00432,3,0.0,0.698505025,True,"glass_breaking:0.488, cow:0.301, clock_tick:0.211","cow:0.507, sheep:0.493"
+test_00433,1,-5.0,0.0,True,glass_breaking:1.000,glass_breaking:1.000
+test_00434,2,10.0,0.33615651999999996,True,"glass_breaking:0.635, mouse_click:0.365","mouse_click:0.367, can_opening:0.333, glass_breaking:0.299"
+test_00435,2,10.0,0.740151,True,"glass_breaking:0.740, frog:0.260",frog:1.000
+test_00436,2,0.0,0.7806819999999999,True,"glass_breaking:0.781, clock_alarm:0.219","clock_alarm:0.530, siren:0.470"
+test_00437,3,0.0,0.7591944850000001,True,"glass_breaking:0.563, sheep:0.241, keyboard_typing:0.197","sheep:0.365, cow:0.326, hen:0.309"
+test_00438,2,-5.0,0.8198160299999999,False,"glass_breaking:0.820, hen:0.180","pig:0.342, hen:0.334, frog:0.324"
+test_00439,2,10.0,0.43209305,True,"glass_breaking:0.749, vacuum_cleaner:0.251","vacuum_cleaner:0.357, washing_machine:0.326, glass_breaking:0.317"
+test_00440,1,-5.0,1.0,False,glass_breaking:1.000,"siren:0.363, train:0.335, vacuum_cleaner:0.303"
+test_00441,2,-5.0,0.7263419750000001,True,"glass_breaking:0.793, rooster:0.207","glass_breaking:0.274, can_opening:0.252, hen:0.241, train:0.233"
+test_00442,2,-5.0,0.9999999749999999,False,"glass_breaking:0.511, door_wood_knock:0.489","can_opening:0.512, mouse_click:0.488"
+test_00443,2,-5.0,0.7139849999999999,True,"glass_breaking:0.714, cow:0.286","cow:0.552, sheep:0.448"
+test_00444,3,0.0,0.3630185,True,"glass_breaking:0.637, siren:0.242, vacuum_cleaner:0.121",glass_breaking:1.000
+test_00445,2,0.0,0.369162,True,"glass_breaking:0.631, car_horn:0.369",glass_breaking:1.000
+test_00446,1,-5.0,0.0,True,glass_breaking:1.000,glass_breaking:1.000
+test_00447,2,0.0,0.18298999999999999,True,"glass_breaking:0.817, mouse_click:0.183",glass_breaking:1.000
+test_00448,3,-5.0,0.69262112,False,"glass_breaking:0.507, clock_alarm:0.385, dog:0.108","hen:0.375, sheep:0.317, glass_breaking:0.307"
+test_00449,3,10.0,0.41857429999999995,True,"glass_breaking:0.609, clock_alarm:0.270, cat:0.121","cat:0.540, glass_breaking:0.460"
+test_00450,2,0.0,0.25597099999999995,True,"glass_breaking:0.744, train:0.256",glass_breaking:1.000
+test_00451,1,10.0,0.0,True,glass_breaking:1.000,glass_breaking:1.000
+test_00452,2,-5.0,0.556459,True,"glass_breaking:0.556, dog:0.444",dog:1.000
+test_00453,3,10.0,0.8710369849999999,True,"glass_breaking:0.511, can_opening:0.360, rooster:0.129","rooster:0.523, hen:0.477"
+test_00454,2,10.0,0.194447455,True,"glass_breaking:0.741, mouse_click:0.259","glass_breaking:0.546, mouse_click:0.454"
+test_00455,1,10.0,0.0,True,glass_breaking:1.000,glass_breaking:1.000
+test_00456,2,0.0,0.32798454,True,"glass_breaking:0.507, mouse_click:0.493","mouse_click:0.362, can_opening:0.328, glass_breaking:0.310"
+test_00457,2,10.0,0.67499,True,"glass_breaking:0.675, sheep:0.325",sheep:1.000
+test_00458,1,-5.0,0.6303838350000001,True,glass_breaking:1.000,"glass_breaking:0.370, can_opening:0.315, mouse_click:0.315"
+test_00459,2,0.0,0.649085,True,"glass_breaking:0.649, pig:0.351",pig:1.000
+test_00460,1,-5.0,0.737610625,True,glass_breaking:1.000,"glass_breaking:0.262, washing_machine:0.261, train:0.258, vacuum_cleaner:0.218"
+test_00461,3,-5.0,0.692607975,False,"glass_breaking:0.451, rooster:0.307, door_wood_knock:0.241","hen:0.513, rooster:0.487"
+test_00462,2,0.0,0.602212985,True,"glass_breaking:0.602, hen:0.398","hen:0.546, rooster:0.454"
+test_00463,3,10.0,0.883305,True,"glass_breaking:0.758, mouse_click:0.125, cow:0.117",cow:1.000
+test_00464,1,10.0,0.999999985,False,glass_breaking:1.000,"can_opening:0.542, frog:0.458"
+test_00465,3,0.0,0.8468709750000001,True,"glass_breaking:0.613, washing_machine:0.234, sheep:0.153","sheep:0.543, cow:0.457"
+test_00466,2,-5.0,0.8022889700000001,True,"glass_breaking:0.802, car_horn:0.198","car_horn:0.549, train:0.451"
+test_00467,2,10.0,0.50931895,False,"glass_breaking:0.807, vacuum_cleaner:0.193","washing_machine:0.509, glass_breaking:0.491"
+test_00468,1,0.0,0.0,True,glass_breaking:1.000,glass_breaking:1.000
+test_00469,3,-5.0,0.826436,True,"glass_breaking:0.629, mouse_click:0.197, sheep:0.174",sheep:1.000
+test_00470,3,0.0,0.643163015,True,"glass_breaking:0.501, mouse_click:0.366, rooster:0.133","glass_breaking:0.357, dog:0.331, sheep:0.312"
+test_00471,3,10.0,0.35395111500000004,True,"glass_breaking:0.664, siren:0.193, door_wood_knock:0.143","siren:0.547, glass_breaking:0.453"
+test_00472,1,10.0,0.0,True,glass_breaking:1.000,glass_breaking:1.000
+test_00473,2,0.0,0.744207775,False,"glass_breaking:0.679, vacuum_cleaner:0.321","washing_machine:0.268, glass_breaking:0.256, mouse_click:0.253, can_opening:0.223"
+test_00474,3,10.0,0.19828674000000002,True,"glass_breaking:0.589, clock_alarm:0.334, can_opening:0.077","clock_alarm:0.533, glass_breaking:0.467"
+test_00475,2,0.0,0.547463,True,"glass_breaking:0.547, siren:0.453",siren:1.000
+test_00476,1,-5.0,0.0,True,glass_breaking:1.000,glass_breaking:1.000
+test_00477,3,-5.0,0.68295392,True,"glass_breaking:0.524, frog:0.303, clock_alarm:0.172","clock_alarm:0.159, frog:0.158, dog:0.149, cat:0.137, mouse_click:0.136"
+test_00478,3,10.0,0.7717014600000001,True,"glass_breaking:0.592, pig:0.299, train:0.109","pig:0.228, cow:0.201, hen:0.196, sheep:0.188, frog:0.186"
+test_00479,3,0.0,0.31049460000000006,True,"glass_breaking:0.542, mouse_click:0.334, door_wood_knock:0.125","glass_breaking:0.370, mouse_click:0.319, washing_machine:0.310"
+test_00480,2,-5.0,0.5560050000000001,True,"hen:0.556, dog:0.444",dog:1.000
+test_00481,2,-5.0,0.5106198,False,"hen:0.557, clock_tick:0.443","siren:0.511, hen:0.489"
+test_00482,2,10.0,0.6504974800000001,True,"hen:0.803, siren:0.197","hen:0.350, cow:0.326, rooster:0.324"
+test_00483,1,-5.0,0.5354825,False,hen:1.000,"frog:0.535, hen:0.465"
+test_00484,3,0.0,0.35482275500000005,True,"hen:0.485, mouse_click:0.337, clock_tick:0.178","mouse_click:0.353, frog:0.339, hen:0.308"
+test_00485,1,10.0,0.46693543,True,hen:1.000,"hen:0.533, rooster:0.467"
+test_00486,2,10.0,0.46914973500000007,True,"hen:0.670, mouse_click:0.330","hen:0.531, rooster:0.469"
+test_00487,1,0.0,0.46002968,True,hen:1.000,"hen:0.540, rooster:0.460"
+test_00488,1,10.0,0.464948125,True,hen:1.000,"hen:0.535, rooster:0.465"
+test_00489,3,-5.0,0.48047449999999997,True,"hen:0.520, pig:0.382, washing_machine:0.098",hen:1.000
+test_00490,1,-5.0,0.0,True,hen:1.000,hen:1.000
+test_00491,3,10.0,0.421339,True,"hen:0.579, train:0.229, glass_breaking:0.192",hen:1.000
+test_00492,2,0.0,0.45984899999999995,True,"hen:0.540, glass_breaking:0.460",hen:1.000
+test_00493,1,0.0,0.47922260000000005,True,hen:1.000,"hen:0.521, rooster:0.479"
+test_00494,1,0.0,0.50328309,False,hen:1.000,"rooster:0.503, hen:0.497"
+test_00495,1,10.0,0.0,True,hen:1.000,hen:1.000
+test_00496,2,-5.0,0.4632113,True,"hen:0.562, glass_breaking:0.438","hen:0.537, frog:0.463"
+test_00497,1,10.0,0.0,True,hen:1.000,hen:1.000
+test_00498,1,-5.0,0.46301426,True,hen:1.000,"hen:0.537, rooster:0.463"
+test_00499,2,0.0,0.34425912499999994,True,"hen:0.851, frog:0.149","hen:0.507, frog:0.493"
+test_00500,2,10.0,0.41489335499999996,True,"hen:0.787, glass_breaking:0.213","hen:0.372, rooster:0.322, glass_breaking:0.306"
+test_00501,3,-5.0,1.000000005,False,"hen:0.390, cat:0.378, siren:0.232","washing_machine:0.364, train:0.321, frog:0.314"
+test_00502,2,10.0,0.46257081,True,"hen:0.855, door_wood_knock:0.145","hen:0.537, rooster:0.463"
+test_00503,3,10.0,0.48256471,True,"hen:0.515, sheep:0.378, frog:0.106","frog:0.216, hen:0.208, sheep:0.203, cow:0.198, pig:0.175"
+test_00504,3,-5.0,0.505922365,True,"hen:0.655, keyboard_typing:0.236, vacuum_cleaner:0.109","keyboard_typing:0.277, hen:0.258, mouse_click:0.243, train:0.223"
+test_00505,1,0.0,0.77049165,True,hen:1.000,"hen:0.230, frog:0.203, rooster:0.193, train:0.188, washing_machine:0.187"
+test_00506,2,0.0,0.53714051,False,"hen:0.745, keyboard_typing:0.255","frog:0.537, hen:0.463"
+test_00507,3,0.0,0.3733955,True,"hen:0.627, pig:0.234, rooster:0.140",hen:1.000
+test_00508,1,10.0,0.47049058499999996,True,hen:1.000,"hen:0.530, rooster:0.470"
+test_00509,2,-5.0,1.0,False,"hen:0.699, glass_breaking:0.301",train:1.000
+test_00510,3,0.0,0.43541797,True,"hen:0.535, cat:0.234, siren:0.231","cat:0.348, hen:0.331, rooster:0.321"
+test_00511,3,10.0,0.462404015,True,"hen:0.538, train:0.299, cat:0.164","hen:0.539, rooster:0.461"
+test_00512,3,-5.0,0.376958,True,"hen:0.623, rooster:0.295, cow:0.082",hen:1.000
+test_00513,3,-5.0,1.000000015,False,"hen:0.622, vacuum_cleaner:0.238, siren:0.140","clock_alarm:0.369, car_horn:0.319, frog:0.311"
+test_00514,3,0.0,0.81325493,True,"hen:0.626, frog:0.247, washing_machine:0.127","hen:0.187, car_horn:0.174, sheep:0.168, cow:0.163, vacuum_cleaner:0.157"
+test_00515,2,10.0,0.62105136,False,"hen:0.826, pig:0.174","cow:0.215, pig:0.206, hen:0.205, frog:0.190, rooster:0.184"
+test_00516,3,10.0,0.498578765,True,"hen:0.745, car_horn:0.135, pig:0.120","hen:0.381, pig:0.311, rooster:0.308"
+test_00517,2,10.0,0.47985278499999995,True,"hen:0.614, dog:0.386","hen:0.520, rooster:0.480"
+test_00518,2,10.0,0.44115499999999996,True,"hen:0.559, washing_machine:0.441",hen:1.000
+test_00519,3,-5.0,0.49676144,True,"hen:0.518, vacuum_cleaner:0.339, sheep:0.143","hen:0.503, frog:0.497"
+test_00520,3,10.0,0.6119620299999999,True,"hen:0.388, vacuum_cleaner:0.309, clock_tick:0.303","hen:0.537, rooster:0.463"
+test_00521,1,-5.0,0.0,True,hen:1.000,hen:1.000
+test_00522,2,0.0,0.302752,True,"hen:0.697, train:0.303",hen:1.000
+test_00523,2,10.0,0.46261611,True,"hen:0.834, can_opening:0.166","hen:0.537, rooster:0.463"
+test_00524,2,0.0,0.492066215,True,"hen:0.714, clock_tick:0.286","hen:0.508, rooster:0.492"
+test_00525,1,10.0,0.45205987999999997,True,hen:1.000,"hen:0.548, rooster:0.452"
+test_00526,2,0.0,0.491136035,True,"hen:0.509, siren:0.491","hen:0.538, rooster:0.462"
+test_00527,1,-5.0,0.6468798099999999,True,hen:1.000,"hen:0.353, rooster:0.329, frog:0.317"
+test_00528,3,0.0,0.59835003,False,"keyboard_typing:0.480, rooster:0.402, door_wood_knock:0.119","hen:0.554, rooster:0.446"
+test_00529,2,-5.0,0.504877535,False,"keyboard_typing:0.878, hen:0.122","mouse_click:0.505, keyboard_typing:0.495"
+test_00530,3,-5.0,0.66316549,True,"keyboard_typing:0.663, hen:0.170, clock_alarm:0.167","clock_alarm:0.214, hen:0.211, rooster:0.197, frog:0.194, clock_tick:0.185"
+test_00531,2,-5.0,0.7176379900000001,False,"keyboard_typing:0.718, washing_machine:0.282","frog:0.358, washing_machine:0.326, mouse_click:0.316"
+test_00532,2,0.0,0.63990602,True,"keyboard_typing:0.640, hen:0.360","hen:0.540, rooster:0.460"
+test_00533,2,-5.0,0.7969978050000001,False,"keyboard_typing:0.667, dog:0.333","door_wood_knock:0.110, dog:0.109, cow:0.108, clock_alarm:0.099, rooster:0.098"
+test_00534,1,0.0,1.00000003,False,keyboard_typing:1.000,"frog:0.524, mouse_click:0.476"
+test_00535,1,-5.0,0.9999999850000001,False,keyboard_typing:1.000,"train:0.521, washing_machine:0.479"
+test_00536,3,10.0,0.664555985,False,"keyboard_typing:0.585, clock_alarm:0.335, can_opening:0.079","mouse_click:0.502, clock_alarm:0.498"
+test_00537,2,0.0,0.6456716299999999,False,"keyboard_typing:0.671, glass_breaking:0.329","mouse_click:0.358, keyboard_typing:0.354, cat:0.287"
+test_00538,2,10.0,0.5854429999999999,True,"keyboard_typing:0.585, sheep:0.415",sheep:1.000
+test_00539,1,-5.0,0.62941631,True,keyboard_typing:1.000,"keyboard_typing:0.371, mouse_click:0.325, frog:0.305"
+test_00540,1,-5.0,0.46113291999999995,True,keyboard_typing:1.000,"keyboard_typing:0.539, mouse_click:0.461"
+test_00541,1,10.0,0.0,True,keyboard_typing:1.000,keyboard_typing:1.000
+test_00542,1,-5.0,0.0,True,keyboard_typing:1.000,keyboard_typing:1.000
+test_00543,3,10.0,0.23884455999999998,True,"keyboard_typing:0.582, sheep:0.275, can_opening:0.144","sheep:0.513, keyboard_typing:0.487"
+test_00544,3,10.0,0.7440865,True,"keyboard_typing:0.592, hen:0.256, mouse_click:0.152",hen:1.000
+test_00545,2,-5.0,0.5907255950000001,True,"keyboard_typing:0.813, hen:0.187","keyboard_typing:0.222, hen:0.206, siren:0.192, frog:0.191, washing_machine:0.189"
+test_00546,3,10.0,0.49917307,True,"keyboard_typing:0.474, glass_breaking:0.378, dog:0.148","keyboard_typing:0.352, dog:0.340, door_wood_knock:0.307"
+test_00547,1,-5.0,0.46385889999999996,True,keyboard_typing:1.000,"keyboard_typing:0.536, siren:0.464"
+test_00548,2,0.0,0.551071325,False,"keyboard_typing:0.739, sheep:0.261","frog:0.551, keyboard_typing:0.449"
+test_00549,3,-5.0,0.8649389949999999,True,"keyboard_typing:0.665, mouse_click:0.200, cat:0.135","cat:0.267, sheep:0.261, hen:0.255, cow:0.217"
+test_00550,3,10.0,0.5526445,False,"keyboard_typing:0.678, clock_alarm:0.218, cat:0.104","rooster:0.181, clock_alarm:0.179, hen:0.174, keyboard_typing:0.164, cat:0.155"
+test_00551,1,-5.0,0.479607275,True,keyboard_typing:1.000,"keyboard_typing:0.520, mouse_click:0.480"
+test_00552,1,10.0,1.000000005,False,keyboard_typing:1.000,"mouse_click:0.270, clock_tick:0.264, clock_alarm:0.243, train:0.223"
+test_00553,1,-5.0,1.000000015,False,keyboard_typing:1.000,"train:0.366, cow:0.339, siren:0.295"
+test_00554,1,0.0,0.99999997,False,keyboard_typing:1.000,"car_horn:0.521, train:0.479"
+test_00555,1,10.0,0.46287098000000004,True,keyboard_typing:1.000,"keyboard_typing:0.537, mouse_click:0.463"
+test_00556,1,10.0,0.63930511,True,keyboard_typing:1.000,"keyboard_typing:0.361, mouse_click:0.334, frog:0.306"
+test_00557,3,0.0,0.7229640199999999,True,"keyboard_typing:0.581, sheep:0.277, glass_breaking:0.142","sheep:0.553, cow:0.447"
+test_00558,1,10.0,0.0,True,keyboard_typing:1.000,keyboard_typing:1.000
+test_00559,2,0.0,0.6634418950000001,False,"keyboard_typing:0.833, pig:0.167","mouse_click:0.365, keyboard_typing:0.337, hen:0.298"
+test_00560,1,10.0,0.0,True,keyboard_typing:1.000,keyboard_typing:1.000
+test_00561,3,0.0,0.78128749,True,"keyboard_typing:0.635, rooster:0.219, washing_machine:0.147","rooster:0.363, hen:0.339, frog:0.298"
+test_00562,1,-5.0,1.000000025,False,keyboard_typing:1.000,"washing_machine:0.222, frog:0.204, train:0.197, siren:0.190, vacuum_cleaner:0.187"
+test_00563,2,10.0,0.502518425,True,"keyboard_typing:0.856, pig:0.144","pig:0.355, keyboard_typing:0.353, door_wood_knock:0.292"
+test_00564,2,0.0,0.2712216,True,"keyboard_typing:0.812, mouse_click:0.188","keyboard_typing:0.541, mouse_click:0.459"
+test_00565,3,0.0,1.000000015,False,"keyboard_typing:0.647, train:0.202, sheep:0.152","mouse_click:0.530, frog:0.470"
+test_00566,3,10.0,0.33735950000000003,True,"keyboard_typing:0.663, door_wood_knock:0.192, vacuum_cleaner:0.145",keyboard_typing:1.000
+test_00567,1,0.0,1.0,False,keyboard_typing:1.000,"mouse_click:0.506, frog:0.494"
+test_00568,1,-5.0,0.67871904,False,keyboard_typing:1.000,"washing_machine:0.368, keyboard_typing:0.321, vacuum_cleaner:0.310"
+test_00569,1,10.0,0.0,True,keyboard_typing:1.000,keyboard_typing:1.000
+test_00570,3,-5.0,0.73973398,False,"keyboard_typing:0.483, vacuum_cleaner:0.260, door_wood_knock:0.257","washing_machine:0.375, mouse_click:0.314, vacuum_cleaner:0.311"
+test_00571,1,-5.0,0.6879869,False,keyboard_typing:1.000,"washing_machine:0.377, keyboard_typing:0.312, frog:0.311"
+test_00572,2,-5.0,1.00000001,False,"keyboard_typing:0.654, can_opening:0.346","frog:0.230, clock_tick:0.199, clock_alarm:0.198, mouse_click:0.188, siren:0.185"
+test_00573,2,10.0,0.51445968,True,"keyboard_typing:0.844, siren:0.156","siren:0.365, keyboard_typing:0.330, mouse_click:0.306"
+test_00574,3,10.0,0.8889385000000001,True,"keyboard_typing:0.681, door_wood_knock:0.208, sheep:0.111",sheep:1.000
+test_00575,3,10.0,0.7128650000000001,True,"keyboard_typing:0.577, cow:0.287, siren:0.136","cow:0.536, sheep:0.464"
+test_00576,3,-5.0,0.8456440000000001,True,"mouse_click:0.522, glass_breaking:0.323, sheep:0.154",sheep:1.000
+test_00577,3,-5.0,0.656757345,False,"mouse_click:0.495, sheep:0.315, car_horn:0.190","frog:0.183, sheep:0.177, mouse_click:0.167, clock_alarm:0.165, cow:0.161"
+test_00578,3,0.0,0.6344529999999999,True,"mouse_click:0.552, frog:0.366, dog:0.083",frog:1.000
+test_00579,1,-5.0,1.0,False,mouse_click:1.000,frog:1.000
+test_00580,2,-5.0,1.0,False,"mouse_click:0.728, keyboard_typing:0.272",frog:1.000
+test_00581,3,10.0,0.590431,True,"mouse_click:0.473, pig:0.410, clock_alarm:0.118",pig:1.000
+test_00582,1,10.0,0.46113213500000005,True,mouse_click:1.000,"mouse_click:0.539, keyboard_typing:0.461"
+test_00583,2,0.0,0.31203929999999996,True,"mouse_click:0.824, siren:0.176","mouse_click:0.512, siren:0.488"
+test_00584,1,-5.0,1.0,False,mouse_click:1.000,frog:1.000
+test_00585,3,10.0,0.474681365,False,"mouse_click:0.557, clock_alarm:0.235, hen:0.207","rooster:0.346, hen:0.336, mouse_click:0.318"
+test_00586,3,-5.0,0.18954243499999998,True,"mouse_click:0.502, frog:0.311, clock_alarm:0.186","clock_alarm:0.348, frog:0.339, mouse_click:0.313"
+test_00587,1,0.0,0.52088073,False,mouse_click:1.000,"frog:0.521, mouse_click:0.479"
+test_00588,1,-5.0,0.45213882000000005,True,mouse_click:1.000,"mouse_click:0.548, keyboard_typing:0.452"
+test_00589,1,10.0,0.64687994,True,mouse_click:1.000,"mouse_click:0.353, keyboard_typing:0.342, door_wood_knock:0.304"
+test_00590,3,10.0,0.815766,True,"mouse_click:0.703, pig:0.184, glass_breaking:0.113",pig:1.000
+test_00591,1,0.0,0.8084991699999999,False,mouse_click:1.000,"frog:0.224, hen:0.199, clock_tick:0.197, mouse_click:0.192, keyboard_typing:0.189"
+test_00592,1,-5.0,0.9999999799999999,False,mouse_click:1.000,"keyboard_typing:0.218, hen:0.213, frog:0.202, pig:0.186, train:0.181"
+test_00593,1,10.0,0.741889725,False,mouse_click:1.000,"can_opening:0.266, mouse_click:0.258, clock_tick:0.257, frog:0.219"
+test_00594,3,-5.0,1.0,False,"mouse_click:0.433, pig:0.375, can_opening:0.193",hen:1.000
+test_00595,1,-5.0,0.668501775,False,mouse_click:1.000,"frog:0.340, mouse_click:0.331, clock_tick:0.328"
+test_00596,2,0.0,0.863539005,False,"mouse_click:0.713, pig:0.287","clock_alarm:0.163, sheep:0.148, cow:0.147, washing_machine:0.137, hen:0.137"
+test_00597,2,10.0,0.603151,True,"mouse_click:0.603, dog:0.397",dog:1.000
+test_00598,1,-5.0,0.716253825,True,mouse_click:1.000,"mouse_click:0.284, clock_alarm:0.252, clock_tick:0.237, frog:0.227"
+test_00599,1,10.0,0.45347961000000003,True,mouse_click:1.000,"mouse_click:0.547, keyboard_typing:0.453"
+test_00600,1,-5.0,0.0,True,mouse_click:1.000,mouse_click:1.000
+test_00601,2,-5.0,0.45586777500000003,False,"mouse_click:0.780, car_horn:0.220","clock_alarm:0.365, mouse_click:0.324, car_horn:0.311"
+test_00602,1,0.0,0.7641469200000001,False,mouse_click:1.000,"keyboard_typing:0.281, frog:0.243, washing_machine:0.240, mouse_click:0.236"
+test_00603,2,-5.0,0.49696518500000003,False,"mouse_click:0.756, clock_tick:0.244","frog:0.265, mouse_click:0.259, clock_tick:0.252, washing_machine:0.224"
+test_00604,1,-5.0,0.0,True,mouse_click:1.000,mouse_click:1.000
+test_00605,3,0.0,0.7465640149999999,True,"mouse_click:0.636, sheep:0.253, clock_tick:0.111","sheep:0.546, frog:0.454"
+test_00606,3,0.0,0.652386,True,"mouse_click:0.500, hen:0.348, washing_machine:0.152",hen:1.000
+test_00607,1,0.0,0.44598442499999996,True,mouse_click:1.000,"mouse_click:0.554, hen:0.446"
+test_00608,2,0.0,1.0,False,"mouse_click:0.620, frog:0.380",washing_machine:1.000
+test_00609,3,-5.0,0.24519401499999996,True,"mouse_click:0.405, clock_alarm:0.350, door_wood_knock:0.245","clock_alarm:0.525, mouse_click:0.475"
+test_00610,1,0.0,0.73742683,False,mouse_click:1.000,"train:0.276, mouse_click:0.263, washing_machine:0.231, pig:0.230"
+test_00611,3,10.0,0.88951099,False,"mouse_click:0.574, frog:0.315, rooster:0.110","hen:0.503, rooster:0.497"
+test_00612,2,10.0,0.653982595,True,"mouse_click:0.533, clock_alarm:0.467","clock_alarm:0.346, train:0.344, washing_machine:0.310"
+test_00613,3,10.0,0.799355,True,"mouse_click:0.706, cat:0.201, can_opening:0.094",cat:1.000
+test_00614,2,0.0,0.419615285,True,"mouse_click:0.771, train:0.229","mouse_click:0.351, train:0.350, washing_machine:0.299"
+test_00615,2,-5.0,0.715787225,False,"mouse_click:0.870, pig:0.130","clock_alarm:0.156, mouse_click:0.154, can_opening:0.149, washing_machine:0.144, frog:0.137"
+test_00616,3,-5.0,0.7607189649999999,False,"mouse_click:0.465, washing_machine:0.404, rooster:0.131","hen:0.266, siren:0.252, train:0.243, washing_machine:0.239"
+test_00617,3,-5.0,0.806465,False,"mouse_click:0.431, keyboard_typing:0.375, dog:0.194","frog:0.540, dog:0.460"
+test_00618,3,10.0,0.85743601,False,"mouse_click:0.534, clock_tick:0.323, sheep:0.143","hen:0.230, frog:0.201, sheep:0.192, cow:0.189, rooster:0.187"
+test_00619,2,-5.0,0.6286446450000001,True,"mouse_click:0.575, clock_alarm:0.425","mouse_click:0.371, train:0.329, washing_machine:0.299"
+test_00620,2,-5.0,0.800236,True,"mouse_click:0.800, cow:0.200","cow:0.536, sheep:0.464"
+test_00621,1,-5.0,0.999999985,False,mouse_click:1.000,"keyboard_typing:0.555, siren:0.445"
+test_00622,1,10.0,0.0,True,mouse_click:1.000,mouse_click:1.000
+test_00623,3,10.0,0.7028375,True,"mouse_click:0.419, siren:0.297, rooster:0.284",siren:1.000
+test_00624,2,-5.0,0.426227,True,"pig:0.574, mouse_click:0.426",pig:1.000
+test_00625,2,-5.0,0.6426793,True,"pig:0.573, rooster:0.427","pig:0.357, frog:0.322, hen:0.320"
+test_00626,1,0.0,0.0,True,pig:1.000,pig:1.000
+test_00627,2,0.0,0.591883985,True,"pig:0.806, cat:0.194","pig:0.223, frog:0.203, hen:0.196, cow:0.193, cat:0.185"
+test_00628,3,10.0,0.45853043,True,"pig:0.655, frog:0.240, clock_alarm:0.104","pig:0.541, dog:0.459"
+test_00629,2,10.0,0.34535695499999997,True,"pig:0.701, cow:0.299","pig:0.356, cow:0.336, sheep:0.308"
+test_00630,1,0.0,0.641948565,True,pig:1.000,"pig:0.358, frog:0.326, cow:0.316"
+test_00631,2,-5.0,0.14753000000000002,True,"pig:0.852, dog:0.148",pig:1.000
+test_00632,2,10.0,0.31842800000000004,True,"pig:0.682, mouse_click:0.318",pig:1.000
+test_00633,3,10.0,0.3381765,True,"pig:0.662, cat:0.238, vacuum_cleaner:0.100",pig:1.000
+test_00634,3,10.0,0.36247799999999997,True,"pig:0.638, vacuum_cleaner:0.263, washing_machine:0.099",pig:1.000
+test_00635,1,-5.0,0.7025508949999999,False,pig:1.000,"frog:0.353, hen:0.350, pig:0.297"
+test_00636,2,-5.0,0.16285499999999997,True,"pig:0.837, train:0.163",pig:1.000
+test_00637,1,-5.0,0.456139165,True,pig:1.000,"pig:0.544, frog:0.456"
+test_00638,2,10.0,0.21524500000000002,True,"pig:0.785, siren:0.215",pig:1.000
+test_00639,2,10.0,0.459212285,True,"pig:0.878, rooster:0.122","pig:0.541, hen:0.459"
+test_00640,1,10.0,0.0,True,pig:1.000,pig:1.000
+test_00641,3,-5.0,1.0,False,"pig:0.601, keyboard_typing:0.288, cow:0.112",hen:1.000
+test_00642,3,0.0,0.5315825,True,"pig:0.468, mouse_click:0.286, can_opening:0.246",pig:1.000
+test_00643,2,10.0,0.13925273999999999,True,"pig:0.652, clock_alarm:0.348","pig:0.513, clock_alarm:0.487"
+test_00644,1,-5.0,0.0,True,pig:1.000,pig:1.000
+test_00645,2,-5.0,0.31234039,True,"pig:0.582, frog:0.418","frog:0.351, pig:0.337, cow:0.312"
+test_00646,3,10.0,1.00000052,False,"pig:0.472, mouse_click:0.422, cow:0.106","frog:0.535, cat:0.465"
+test_00647,1,-5.0,1.0,False,pig:1.000,frog:1.000
+test_00648,1,-5.0,0.0,True,pig:1.000,pig:1.000
+test_00649,3,-5.0,1.00000001,False,"pig:0.736, train:0.146, vacuum_cleaner:0.118","hen:0.519, siren:0.481"
+test_00650,2,-5.0,1.0,False,"pig:0.524, vacuum_cleaner:0.476",hen:1.000
+test_00651,2,10.0,1.0,False,"pig:0.702, rooster:0.298",hen:1.000
+test_00652,1,-5.0,0.9999999749999999,False,pig:1.000,"hen:0.529, train:0.471"
+test_00653,3,0.0,0.658638,True,"pig:0.659, mouse_click:0.256, clock_alarm:0.085","clock_alarm:0.347, mouse_click:0.345, clock_tick:0.309"
+test_00654,1,0.0,0.0,True,pig:1.000,pig:1.000
+test_00655,2,0.0,0.449288,True,"pig:0.551, cat:0.449",pig:1.000
+test_00656,3,0.0,0.594298735,True,"pig:0.484, siren:0.455, frog:0.061","pig:0.345, frog:0.338, cow:0.317"
+test_00657,3,0.0,0.6497170649999999,True,"pig:0.529, cat:0.258, siren:0.213","cat:0.182, hen:0.177, sheep:0.169, pig:0.168, cow:0.155"
+test_00658,2,0.0,0.87292102,True,"pig:0.873, washing_machine:0.127","washing_machine:0.283, frog:0.242, cow:0.238, clock_alarm:0.237"
+test_00659,3,0.0,0.67651264,False,"pig:0.612, train:0.213, sheep:0.176","cow:0.179, cat:0.167, train:0.167, hen:0.166, washing_machine:0.164"
+test_00660,3,0.0,0.8187434200000001,False,"pig:0.693, vacuum_cleaner:0.174, clock_alarm:0.133","mouse_click:0.225, hen:0.216, frog:0.190, cat:0.187, pig:0.181"
+test_00661,1,0.0,0.53374356,False,pig:1.000,"hen:0.534, pig:0.466"
+test_00662,3,-5.0,1.0,False,"pig:0.605, dog:0.275, door_wood_knock:0.120",hen:1.000
+test_00663,1,10.0,0.47067101499999997,True,pig:1.000,"pig:0.529, cow:0.471"
+test_00664,3,10.0,0.461989085,True,"pig:0.701, cat:0.194, keyboard_typing:0.104","pig:0.538, cow:0.462"
+test_00665,1,-5.0,0.50503131,False,pig:1.000,"frog:0.505, pig:0.495"
+test_00666,3,0.0,0.78878301,False,"pig:0.651, glass_breaking:0.211, cow:0.137","mouse_click:0.365, glass_breaking:0.333, washing_machine:0.302"
+test_00667,1,-5.0,0.6363116400000001,True,pig:1.000,"pig:0.364, frog:0.332, hen:0.304"
+test_00668,3,10.0,0.6419988500000001,True,"pig:0.738, rooster:0.148, car_horn:0.114","pig:0.210, frog:0.206, cow:0.205, hen:0.192, rooster:0.188"
+test_00669,2,0.0,0.4579320400000001,True,"pig:0.657, glass_breaking:0.343","pig:0.542, frog:0.458"
+test_00670,1,10.0,0.0,True,pig:1.000,pig:1.000
+test_00671,2,-5.0,0.33247899999999997,True,"pig:0.668, glass_breaking:0.332",pig:1.000
+test_00672,1,10.0,0.483143255,True,rooster:1.000,"rooster:0.517, hen:0.483"
+test_00673,1,-5.0,0.650500135,True,rooster:1.000,"rooster:0.349, hen:0.338, cat:0.312"
+test_00674,2,0.0,0.5095943000000001,False,"rooster:0.799, car_horn:0.201","hen:0.510, rooster:0.490"
+test_00675,1,-5.0,0.501756825,False,rooster:1.000,"hen:0.502, rooster:0.498"
+test_00676,2,-5.0,0.5181402150000001,False,"rooster:0.683, sheep:0.317","hen:0.518, rooster:0.482"
+test_00677,3,0.0,0.6931840149999999,False,"rooster:0.513, sheep:0.307, siren:0.181","hen:0.345, cow:0.343, sheep:0.313"
+test_00678,2,-5.0,0.6562961749999999,False,"rooster:0.693, glass_breaking:0.307","hen:0.360, rooster:0.344, cat:0.297"
+test_00679,2,0.0,0.5141865299999999,False,"rooster:0.682, door_wood_knock:0.318","hen:0.514, rooster:0.486"
+test_00680,2,0.0,0.6667079950000001,False,"rooster:0.681, mouse_click:0.319","hen:0.367, rooster:0.333, pig:0.300"
+test_00681,3,-5.0,0.49069336,True,"rooster:0.482, cow:0.403, train:0.115","cow:0.274, hen:0.254, sheep:0.236, rooster:0.235"
+test_00682,1,10.0,0.5370175100000001,False,rooster:1.000,"hen:0.537, rooster:0.463"
+test_00683,3,10.0,0.44629716,False,"rooster:0.465, clock_alarm:0.372, cow:0.163","hen:0.212, cow:0.211, rooster:0.209, frog:0.186, clock_alarm:0.182"
+test_00684,2,10.0,0.5077085450000001,False,"rooster:0.667, vacuum_cleaner:0.333","hen:0.279, rooster:0.259, vacuum_cleaner:0.233, washing_machine:0.228"
+test_00685,2,0.0,0.60730548,False,"rooster:0.822, cat:0.178","hen:0.228, rooster:0.215, frog:0.190, cow:0.185, cat:0.183"
+test_00686,1,10.0,0.782481275,False,rooster:1.000,"hen:0.220, rooster:0.218, cow:0.195, dog:0.190, cat:0.177"
+test_00687,3,-5.0,1.0000000249999998,False,"rooster:0.572, vacuum_cleaner:0.322, clock_alarm:0.106","train:0.348, washing_machine:0.339, hen:0.313"
+test_00688,3,0.0,0.663706645,False,"rooster:0.659, train:0.194, sheep:0.147","hen:0.229, cow:0.209, rooster:0.190, sheep:0.189, cat:0.184"
+test_00689,2,0.0,0.49059752500000003,True,"rooster:0.653, frog:0.347","rooster:0.509, hen:0.491"
+test_00690,1,10.0,0.4778243,True,rooster:1.000,"rooster:0.522, hen:0.478"
+test_00691,2,-5.0,0.519619,True,"rooster:0.520, mouse_click:0.480",mouse_click:1.000
+test_00692,2,10.0,0.38726147,True,"rooster:0.702, cat:0.298","cat:0.355, hen:0.330, rooster:0.314"
+test_00693,2,-5.0,0.490484045,True,"rooster:0.608, can_opening:0.392","rooster:0.510, hen:0.490"
+test_00694,2,-5.0,0.8185460900000001,False,"rooster:0.676, glass_breaking:0.324","hen:0.227, cat:0.207, cow:0.195, sheep:0.190, glass_breaking:0.181"
+test_00695,1,10.0,0.6763620850000001,False,rooster:1.000,"hen:0.364, rooster:0.324, cow:0.313"
+test_00696,1,0.0,0.477529455,True,rooster:1.000,"rooster:0.522, hen:0.478"
+test_00697,1,-5.0,0.48233053000000004,True,rooster:1.000,"rooster:0.518, hen:0.482"
+test_00698,2,-5.0,0.774309455,True,"rooster:0.663, cow:0.337","cow:0.226, sheep:0.213, hen:0.193, pig:0.185, washing_machine:0.183"
+test_00699,3,0.0,0.53854755,False,"rooster:0.650, train:0.225, car_horn:0.125","hen:0.539, rooster:0.461"
+test_00700,2,-5.0,0.6895996649999999,False,"rooster:0.600, siren:0.400","cow:0.352, hen:0.338, siren:0.310"
+test_00701,2,0.0,0.09090449999999997,True,"rooster:0.580, hen:0.420","hen:0.511, rooster:0.489"
+test_00702,2,10.0,0.47191491,True,"rooster:0.818, clock_tick:0.182","rooster:0.528, hen:0.472"
+test_00703,3,0.0,0.51277651,False,"rooster:0.518, pig:0.271, keyboard_typing:0.211","hen:0.513, rooster:0.487"
+test_00704,3,-5.0,0.5866759850000001,False,"rooster:0.452, siren:0.413, clock_alarm:0.135","car_horn:0.529, siren:0.471"
+test_00705,2,0.0,0.535212275,False,"rooster:0.643, can_opening:0.357","hen:0.535, rooster:0.465"
+test_00706,1,10.0,0.4911677,True,rooster:1.000,"rooster:0.509, hen:0.491"
+test_00707,2,0.0,0.6760400200000001,False,"rooster:0.664, clock_alarm:0.336","car_horn:0.341, siren:0.335, clock_alarm:0.324"
+test_00708,3,-5.0,0.6670039650000001,False,"rooster:0.631, mouse_click:0.223, sheep:0.146","hen:0.350, rooster:0.333, cow:0.317"
+test_00709,2,10.0,0.49818162,True,"rooster:0.705, mouse_click:0.295","rooster:0.502, hen:0.498"
+test_00710,1,0.0,0.648727455,True,rooster:1.000,"rooster:0.351, hen:0.347, frog:0.302"
+test_00711,1,0.0,1.0,False,rooster:1.000,hen:1.000
+test_00712,3,0.0,0.5274548299999999,False,"rooster:0.729, frog:0.163, keyboard_typing:0.109","hen:0.380, rooster:0.310, frog:0.310"
+test_00713,2,0.0,0.42651392,False,"rooster:0.737, train:0.263","hen:0.362, train:0.328, rooster:0.310"
+test_00714,2,-5.0,0.6133519300000001,False,"rooster:0.556, dog:0.444","hen:0.219, frog:0.200, cow:0.194, dog:0.194, rooster:0.193"
+test_00715,3,-5.0,0.632146875,True,"rooster:0.519, cow:0.402, door_wood_knock:0.079","cow:0.368, pig:0.325, hen:0.307"
+test_00716,3,10.0,0.40129405000000007,True,"rooster:0.740, siren:0.136, hen:0.124","hen:0.525, rooster:0.475"
+test_00717,1,-5.0,0.6597744249999999,False,rooster:1.000,"hen:0.345, rooster:0.340, frog:0.315"
+test_00718,2,-5.0,0.645824285,True,"rooster:0.817, cow:0.183","rooster:0.354, hen:0.352, frog:0.294"
+test_00719,3,0.0,0.5488245700000001,False,"rooster:0.624, dog:0.193, glass_breaking:0.182","hen:0.276, rooster:0.258, dog:0.241, cat:0.225"
+test_00720,3,-5.0,0.7323912100000001,False,"sheep:0.526, clock_tick:0.315, rooster:0.159","cow:0.268, sheep:0.268, pig:0.248, hen:0.216"
+test_00721,3,-5.0,0.5171492200000001,True,"sheep:0.579, clock_tick:0.310, frog:0.110","sheep:0.373, frog:0.328, cow:0.300"
+test_00722,1,10.0,0.483534915,True,sheep:1.000,"sheep:0.516, cow:0.484"
+test_00723,2,10.0,0.44495348500000004,False,"sheep:0.794, siren:0.206","cow:0.351, sheep:0.349, siren:0.300"
+test_00724,1,10.0,0.45077581499999997,True,sheep:1.000,"sheep:0.549, cow:0.451"
+test_00725,2,-5.0,0.49488911999999996,True,"sheep:0.707, dog:0.293","sheep:0.505, cow:0.495"
+test_00726,1,10.0,0.48821747,True,sheep:1.000,"sheep:0.512, cow:0.488"
+test_00727,2,10.0,0.682721045,False,"sheep:0.531, washing_machine:0.469","cow:0.377, washing_machine:0.317, vacuum_cleaner:0.306"
+test_00728,1,-5.0,0.680577045,False,sheep:1.000,"cow:0.366, sheep:0.319, car_horn:0.314"
+test_00729,3,0.0,0.3457641,True,"sheep:0.634, hen:0.198, cat:0.168","hen:0.544, sheep:0.456"
+test_00730,2,0.0,0.46311159,True,"sheep:0.727, siren:0.273","sheep:0.537, cow:0.463"
+test_00731,3,-5.0,1.0,False,"sheep:0.705, car_horn:0.177, keyboard_typing:0.119","vacuum_cleaner:0.352, washing_machine:0.348, hen:0.300"
+test_00732,2,-5.0,0.23979099999999998,True,"sheep:0.760, frog:0.240",sheep:1.000
+test_00733,1,-5.0,0.0,True,sheep:1.000,sheep:1.000
+test_00734,1,0.0,0.0,True,sheep:1.000,sheep:1.000
+test_00735,3,10.0,0.22318827999999996,True,"sheep:0.543, pig:0.316, cat:0.141","pig:0.539, sheep:0.461"
+test_00736,3,10.0,0.626696765,True,"sheep:0.464, siren:0.445, cat:0.091","sheep:0.373, cow:0.324, frog:0.303"
+test_00737,1,10.0,0.0,True,sheep:1.000,sheep:1.000
+test_00738,2,-5.0,0.2634318,True,"sheep:0.791, hen:0.209","sheep:0.528, hen:0.472"
+test_00739,3,10.0,0.44572803,True,"sheep:0.581, door_wood_knock:0.287, pig:0.131","sheep:0.554, cow:0.446"
+test_00740,3,10.0,0.465712565,True,"sheep:0.689, washing_machine:0.191, rooster:0.121","sheep:0.534, cow:0.466"
+test_00741,2,10.0,0.303651475,True,"sheep:0.554, frog:0.446","frog:0.366, sheep:0.330, hen:0.304"
+test_00742,3,-5.0,1.0,False,"sheep:0.510, washing_machine:0.307, car_horn:0.182",cat:1.000
+test_00743,1,10.0,0.0,True,sheep:1.000,sheep:1.000
+test_00744,3,-5.0,0.359541755,False,"sheep:0.475, dog:0.351, clock_alarm:0.174","cow:0.360, sheep:0.336, dog:0.304"
+test_00745,3,10.0,0.30322311,True,"sheep:0.652, pig:0.249, clock_alarm:0.098","pig:0.553, sheep:0.447"
+test_00746,1,0.0,0.48110929999999996,True,sheep:1.000,"sheep:0.519, cow:0.481"
+test_00747,1,0.0,0.46713958499999997,True,sheep:1.000,"sheep:0.533, cow:0.467"
+test_00748,3,0.0,0.40396299999999996,True,"sheep:0.596, cow:0.269, pig:0.135",sheep:1.000
+test_00749,1,-5.0,0.449074,True,sheep:1.000,"sheep:0.551, cow:0.449"
+test_00750,2,0.0,0.7469300950000001,False,"sheep:0.575, car_horn:0.425","hen:0.268, sheep:0.253, pig:0.245, frog:0.234"
+test_00751,2,-5.0,0.6679803999999999,False,"sheep:0.850, cat:0.150","hen:0.364, sheep:0.332, pig:0.304"
+test_00752,2,-5.0,0.6229210000000001,True,"sheep:0.623, washing_machine:0.377",washing_machine:1.000
+test_00753,2,-5.0,0.489423665,True,"sheep:0.793, hen:0.207","sheep:0.511, cow:0.489"
+test_00754,1,10.0,0.0,True,sheep:1.000,sheep:1.000
+test_00755,3,0.0,0.46540170000000003,True,"sheep:0.757, door_wood_knock:0.138, cat:0.105","sheep:0.535, cow:0.465"
+test_00756,1,0.0,0.0,True,sheep:1.000,sheep:1.000
+test_00757,2,0.0,0.627902545,True,"sheep:0.588, pig:0.412","sheep:0.372, cow:0.318, frog:0.310"
+test_00758,2,0.0,0.4460397,True,"sheep:0.877, siren:0.123","sheep:0.554, cow:0.446"
+test_00759,2,-5.0,0.99999999,False,"sheep:0.709, train:0.291","hen:0.526, frog:0.474"
+test_00760,3,-5.0,0.46760828499999996,True,"sheep:0.662, mouse_click:0.250, clock_tick:0.089","sheep:0.532, cow:0.468"
+test_00761,2,0.0,0.48585546,True,"sheep:0.763, siren:0.237","sheep:0.514, cow:0.486"
+test_00762,3,-5.0,0.478669745,True,"sheep:0.358, frog:0.332, cat:0.309","frog:0.278, cow:0.244, sheep:0.243, hen:0.235"
+test_00763,3,10.0,0.5281895,True,"sheep:0.472, door_wood_knock:0.447, washing_machine:0.082",sheep:1.000
+test_00764,1,10.0,0.0,True,sheep:1.000,sheep:1.000
+test_00765,2,0.0,0.40953700000000004,True,"sheep:0.590, washing_machine:0.410",sheep:1.000
+test_00766,2,10.0,0.44613326,True,"sheep:0.868, cat:0.132","sheep:0.554, cow:0.446"
+test_00767,3,0.0,0.44875018499999997,True,"sheep:0.720, glass_breaking:0.165, pig:0.115","sheep:0.551, cow:0.449"
+test_00768,1,-5.0,0.0,True,siren:1.000,siren:1.000
+test_00769,2,10.0,0.14242100000000002,True,"siren:0.858, clock_alarm:0.142",siren:1.000
+test_00770,1,-5.0,0.7491519000000001,False,siren:1.000,"train:0.280, siren:0.251, car_horn:0.237, washing_machine:0.232"
+test_00771,1,-5.0,0.0,True,siren:1.000,siren:1.000
+test_00772,3,10.0,0.41835900000000004,True,"siren:0.582, car_horn:0.287, clock_alarm:0.132",siren:1.000
+test_00773,2,0.0,0.19947000000000004,True,"siren:0.801, dog:0.199",siren:1.000
+test_00774,2,10.0,0.14492346500000003,True,"siren:0.650, car_horn:0.350","siren:0.505, car_horn:0.495"
+test_00775,3,-5.0,0.39986,True,"siren:0.600, frog:0.258, can_opening:0.142",siren:1.000
+test_00776,3,10.0,0.255167015,True,"siren:0.387, car_horn:0.357, train:0.255","car_horn:0.524, siren:0.476"
+test_00777,2,10.0,0.144088,True,"siren:0.856, car_horn:0.144",siren:1.000
+test_00778,3,0.0,0.744226905,False,"siren:0.511, hen:0.264, rooster:0.226","car_horn:0.272, siren:0.256, vacuum_cleaner:0.250, train:0.222"
+test_00779,1,-5.0,0.51796883,False,siren:1.000,"car_horn:0.518, siren:0.482"
+test_00780,3,-5.0,0.376661,True,"siren:0.623, train:0.242, keyboard_typing:0.135",siren:1.000
+test_00781,3,10.0,0.3977385,True,"siren:0.602, clock_alarm:0.227, rooster:0.171",siren:1.000
+test_00782,3,10.0,0.32338332999999997,True,"siren:0.722, door_wood_knock:0.144, keyboard_typing:0.135","siren:0.533, door_wood_knock:0.467"
+test_00783,1,-5.0,1.0,False,siren:1.000,"washing_machine:0.522, vacuum_cleaner:0.478"
+test_00784,1,0.0,0.454104855,True,siren:1.000,"siren:0.546, clock_alarm:0.454"
+test_00785,2,-5.0,0.7254126,True,"siren:0.738, can_opening:0.262","siren:0.275, vacuum_cleaner:0.264, washing_machine:0.236, clock_alarm:0.226"
+test_00786,2,10.0,0.18454400000000004,True,"siren:0.815, washing_machine:0.185",siren:1.000
+test_00787,2,0.0,0.470778035,True,"siren:0.876, pig:0.124","siren:0.529, car_horn:0.471"
+test_00788,3,10.0,0.30748923499999997,True,"siren:0.534, dog:0.377, keyboard_typing:0.088","siren:0.381, dog:0.311, car_horn:0.307"
+test_00789,2,10.0,0.18471800000000002,True,"siren:0.815, mouse_click:0.185",siren:1.000
+test_00790,2,10.0,0.31488203000000003,True,"siren:0.812, car_horn:0.188","car_horn:0.503, siren:0.497"
+test_00791,1,0.0,0.50639373,False,siren:1.000,"car_horn:0.506, siren:0.494"
+test_00792,1,0.0,0.445378285,True,siren:1.000,"siren:0.555, clock_alarm:0.445"
+test_00793,2,10.0,0.15479699999999996,True,"siren:0.845, cat:0.155",siren:1.000
+test_00794,1,-5.0,0.0,True,siren:1.000,siren:1.000
+test_00795,1,10.0,0.0,True,siren:1.000,siren:1.000
+test_00796,1,0.0,0.70066279,False,siren:1.000,"vacuum_cleaner:0.360, washing_machine:0.341, siren:0.299"
+test_00797,2,-5.0,0.47277283999999997,True,"siren:0.581, hen:0.419","siren:0.527, clock_alarm:0.473"
+test_00798,2,-5.0,0.8200253499999999,False,"siren:0.845, rooster:0.155","train:0.182, siren:0.180, car_horn:0.167, washing_machine:0.164, hen:0.160"
+test_00799,1,10.0,0.0,True,siren:1.000,siren:1.000
+test_00800,1,0.0,0.0,True,siren:1.000,siren:1.000
+test_00801,2,-5.0,0.76496097,False,"siren:0.765, clock_alarm:0.235","washing_machine:0.369, vacuum_cleaner:0.324, clock_alarm:0.307"
+test_00802,3,0.0,0.36825933,True,"siren:0.563, keyboard_typing:0.320, dog:0.118","siren:0.514, dog:0.486"
+test_00803,3,0.0,0.32403868999999996,True,"siren:0.447, cow:0.410, dog:0.143","siren:0.360, car_horn:0.324, cow:0.316"
+test_00804,1,0.0,0.71677688,True,siren:1.000,"siren:0.283, vacuum_cleaner:0.245, train:0.241, washing_machine:0.231"
+test_00805,3,0.0,0.37919109000000006,True,"siren:0.615, can_opening:0.253, dog:0.132","dog:0.512, siren:0.488"
+test_00806,3,-5.0,1.0,False,"siren:0.660, glass_breaking:0.240, sheep:0.101","washing_machine:0.546, vacuum_cleaner:0.454"
+test_00807,3,0.0,0.899519985,True,"siren:0.648, can_opening:0.252, door_wood_knock:0.100","door_wood_knock:0.361, washing_machine:0.322, mouse_click:0.318"
+test_00808,1,0.0,0.4833923,True,siren:1.000,"siren:0.517, train:0.483"
+test_00809,1,0.0,0.0,True,siren:1.000,siren:1.000
+test_00810,1,10.0,0.0,True,siren:1.000,siren:1.000
+test_00811,1,-5.0,0.0,True,siren:1.000,siren:1.000
+test_00812,2,10.0,0.09424349000000001,True,"siren:0.600, dog:0.400","siren:0.506, dog:0.494"
+test_00813,1,10.0,0.0,True,siren:1.000,siren:1.000
+test_00814,2,10.0,0.745649,True,"siren:0.746, cat:0.254",cat:1.000
+test_00815,3,0.0,0.34800045,True,"siren:0.471, dog:0.284, keyboard_typing:0.245","siren:0.368, dog:0.329, cat:0.303"
+test_00816,2,-5.0,0.63002935,True,"train:0.563, sheep:0.437","sheep:0.370, cow:0.326, frog:0.304"
+test_00817,2,0.0,0.736593025,False,"train:0.737, can_opening:0.263","frog:0.364, can_opening:0.322, mouse_click:0.314"
+test_00818,1,10.0,0.0,True,train:1.000,train:1.000
+test_00819,2,10.0,0.79887,False,"train:0.799, dog:0.201","hen:0.514, dog:0.486"
+test_00820,3,10.0,0.9999999850000001,False,"train:0.611, rooster:0.307, vacuum_cleaner:0.082","hen:0.545, frog:0.455"
+test_00821,1,0.0,0.0,True,train:1.000,train:1.000
+test_00822,2,0.0,0.382775,True,"train:0.617, door_wood_knock:0.383",train:1.000
+test_00823,3,0.0,0.486246615,True,"train:0.462, cow:0.281, siren:0.257","cow:0.281, sheep:0.244, washing_machine:0.242, train:0.233"
+test_00824,3,0.0,0.44647381499999994,True,"train:0.604, vacuum_cleaner:0.304, clock_alarm:0.091","train:0.554, washing_machine:0.446"
+test_00825,3,-5.0,0.7475950600000001,False,"train:0.540, mouse_click:0.383, can_opening:0.077","door_wood_knock:0.266, keyboard_typing:0.258, mouse_click:0.252, dog:0.223"
+test_00826,1,-5.0,0.0,True,train:1.000,train:1.000
+test_00827,3,0.0,0.68639099,False,"train:0.499, siren:0.300, mouse_click:0.200","washing_machine:0.366, vacuum_cleaner:0.321, train:0.314"
+test_00828,3,-5.0,0.7575405,True,"train:0.484, car_horn:0.274, dog:0.242",dog:1.000
+test_00829,2,10.0,0.201241,True,"train:0.799, cow:0.201",train:1.000
+test_00830,3,-5.0,0.6702262999999999,False,"train:0.496, siren:0.407, clock_alarm:0.097","washing_machine:0.370, train:0.330, vacuum_cleaner:0.300"
+test_00831,3,10.0,0.895065,True,"train:0.777, rooster:0.118, siren:0.105",siren:1.000
+test_00832,3,-5.0,0.6398134849999999,True,"train:0.662, clock_tick:0.247, glass_breaking:0.092","train:0.192, clock_tick:0.169, frog:0.165, washing_machine:0.164, mouse_click:0.158"
+test_00833,2,10.0,0.160173,True,"train:0.840, mouse_click:0.160",train:1.000
+test_00834,2,10.0,0.5359160000000001,True,"train:0.536, washing_machine:0.464",washing_machine:1.000
+test_00835,1,-5.0,0.8197184550000001,True,train:1.000,"train:0.180, siren:0.176, washing_machine:0.176, hen:0.162, frog:0.154"
+test_00836,3,10.0,0.662241195,False,"train:0.496, sheep:0.430, mouse_click:0.074","cow:0.343, sheep:0.338, washing_machine:0.319"
+test_00837,3,10.0,0.2982815,True,"train:0.478, washing_machine:0.267, car_horn:0.255","car_horn:0.554, train:0.446"
+test_00838,1,0.0,0.0,True,train:1.000,train:1.000
+test_00839,2,-5.0,0.19311299999999998,True,"train:0.807, frog:0.193",train:1.000
+test_00840,1,-5.0,0.6599435250000001,False,train:1.000,"washing_machine:0.342, train:0.340, hen:0.318"
+test_00841,2,-5.0,0.252365625,True,"train:0.756, washing_machine:0.244","train:0.504, washing_machine:0.496"
+test_00842,3,10.0,0.49120970999999997,True,"train:0.676, vacuum_cleaner:0.203, keyboard_typing:0.121","train:0.509, washing_machine:0.491"
+test_00843,3,-5.0,0.445415835,True,"train:0.760, door_wood_knock:0.140, dog:0.099","train:0.555, washing_machine:0.445"
+test_00844,1,0.0,0.46933040000000004,True,train:1.000,"train:0.531, washing_machine:0.469"
+test_00845,2,0.0,0.999999995,False,"train:0.577, rooster:0.423","hen:0.364, cow:0.329, sheep:0.306"
+test_00846,3,0.0,0.9999995,False,"train:0.450, clock_alarm:0.366, mouse_click:0.184",washing_machine:1.000
+test_00847,2,-5.0,0.388461995,True,"train:0.739, mouse_click:0.261","train:0.351, washing_machine:0.342, mouse_click:0.308"
+test_00848,3,-5.0,0.680058615,False,"train:0.534, can_opening:0.359, sheep:0.106","pig:0.359, washing_machine:0.322, train:0.320"
+test_00849,2,0.0,0.08787919000000002,True,"train:0.635, glass_breaking:0.365","train:0.548, glass_breaking:0.452"
+test_00850,1,10.0,0.0,True,train:1.000,train:1.000
+test_00851,2,0.0,0.14958717999999996,True,"train:0.700, washing_machine:0.300","train:0.550, washing_machine:0.450"
+test_00852,1,-5.0,0.0,True,train:1.000,train:1.000
+test_00853,2,0.0,0.14721190000000003,True,"train:0.692, dog:0.308","train:0.545, dog:0.455"
+test_00854,2,10.0,0.707500015,False,"train:0.708, sheep:0.292","cow:0.528, sheep:0.472"
+test_00855,2,0.0,0.3294503,True,"train:0.817, car_horn:0.183","car_horn:0.513, train:0.487"
+test_00856,2,0.0,0.662155515,False,"train:0.560, mouse_click:0.440","siren:0.182, door_wood_knock:0.174, train:0.170, mouse_click:0.168, washing_machine:0.154"
+test_00857,3,-5.0,0.48384379499999997,True,"train:0.557, washing_machine:0.337, cat:0.107","washing_machine:0.265, frog:0.251, train:0.251, hen:0.233"
+test_00858,3,-5.0,0.6479126399999999,True,"train:0.728, rooster:0.139, sheep:0.133","train:0.219, cow:0.212, sheep:0.202, cat:0.186, hen:0.180"
+test_00859,3,10.0,0.31746486000000007,True,"train:0.540, siren:0.372, keyboard_typing:0.088","siren:0.366, car_horn:0.317, train:0.317"
+test_00860,1,10.0,0.446462855,True,train:1.000,"train:0.554, washing_machine:0.446"
+test_00861,1,10.0,0.0,True,train:1.000,train:1.000
+test_00862,3,0.0,0.39877650000000003,True,"train:0.601, clock_tick:0.304, dog:0.095",train:1.000
+test_00863,2,0.0,0.819952,True,"train:0.820, sheep:0.180",sheep:1.000
+test_00864,1,10.0,0.467706845,True,vacuum_cleaner:1.000,"vacuum_cleaner:0.532, washing_machine:0.468"
+test_00865,1,0.0,0.516268265,False,vacuum_cleaner:1.000,"washing_machine:0.516, vacuum_cleaner:0.484"
+test_00866,1,0.0,0.496050125,True,vacuum_cleaner:1.000,"vacuum_cleaner:0.504, washing_machine:0.496"
+test_00867,3,10.0,0.5176604149999999,False,"vacuum_cleaner:0.477, rooster:0.277, glass_breaking:0.247","hen:0.267, washing_machine:0.250, vacuum_cleaner:0.247, rooster:0.235"
+test_00868,1,0.0,0.47296772,True,vacuum_cleaner:1.000,"vacuum_cleaner:0.527, washing_machine:0.473"
+test_00869,3,0.0,0.5471200150000001,True,"vacuum_cleaner:0.547, washing_machine:0.248, train:0.205","washing_machine:0.547, train:0.453"
+test_00870,3,-5.0,1.0,False,"vacuum_cleaner:0.590, mouse_click:0.327, glass_breaking:0.083",train:1.000
+test_00871,3,0.0,0.7188755,True,"vacuum_cleaner:0.537, hen:0.281, train:0.182",hen:1.000
+test_00872,3,0.0,0.767603,True,"vacuum_cleaner:0.424, can_opening:0.343, washing_machine:0.232","washing_machine:0.533, frog:0.467"
+test_00873,3,0.0,0.652628035,False,"vacuum_cleaner:0.751, hen:0.133, dog:0.116","siren:0.217, washing_machine:0.214, vacuum_cleaner:0.214, car_horn:0.179, hen:0.176"
+test_00874,2,0.0,0.5046906250000001,False,"vacuum_cleaner:0.883, clock_alarm:0.117","washing_machine:0.505, vacuum_cleaner:0.495"
+test_00875,3,10.0,0.564107185,True,"vacuum_cleaner:0.460, washing_machine:0.423, rooster:0.116","vacuum_cleaner:0.221, washing_machine:0.215, car_horn:0.199, hen:0.186, train:0.179"
+test_00876,3,0.0,0.77100851,True,"vacuum_cleaner:0.516, clock_tick:0.255, train:0.229","train:0.355, washing_machine:0.354, pig:0.291"
+test_00877,2,-5.0,0.6638310000000001,True,"vacuum_cleaner:0.664, pig:0.336",pig:1.000
+test_00878,2,0.0,1.00000001,False,"vacuum_cleaner:0.574, can_opening:0.426","train:0.555, washing_machine:0.445"
+test_00879,3,-5.0,0.8069179849999999,False,"vacuum_cleaner:0.688, hen:0.193, clock_alarm:0.119","train:0.546, hen:0.454"
+test_00880,3,10.0,0.9999999999999999,False,"vacuum_cleaner:0.692, glass_breaking:0.192, dog:0.117",frog:1.000
+test_00881,2,-5.0,1.000000015,False,"vacuum_cleaner:0.688, pig:0.312","washing_machine:0.518, train:0.482"
+test_00882,2,10.0,0.49552118,True,"vacuum_cleaner:0.821, glass_breaking:0.179","vacuum_cleaner:0.504, washing_machine:0.496"
+test_00883,2,10.0,0.5123675,False,"vacuum_cleaner:0.858, siren:0.142","washing_machine:0.512, vacuum_cleaner:0.488"
+test_00884,1,0.0,0.535132215,False,vacuum_cleaner:1.000,"washing_machine:0.535, vacuum_cleaner:0.465"
+test_00885,1,-5.0,1.000000025,False,vacuum_cleaner:1.000,"washing_machine:0.511, train:0.489"
+test_00886,1,-5.0,0.8170937250000001,False,vacuum_cleaner:1.000,"washing_machine:0.228, siren:0.203, train:0.199, hen:0.188, vacuum_cleaner:0.183"
+test_00887,3,-5.0,0.54023449,False,"vacuum_cleaner:0.630, cat:0.274, frog:0.096","washing_machine:0.540, vacuum_cleaner:0.460"
+test_00888,2,10.0,0.49330442,False,"vacuum_cleaner:0.679, keyboard_typing:0.321","washing_machine:0.268, keyboard_typing:0.254, vacuum_cleaner:0.253, mouse_click:0.225"
+test_00889,2,-5.0,0.780878985,True,"vacuum_cleaner:0.781, clock_tick:0.219","clock_tick:0.366, clock_alarm:0.324, washing_machine:0.310"
+test_00890,2,-5.0,0.65744667,True,"vacuum_cleaner:0.773, washing_machine:0.227","washing_machine:0.187, frog:0.175, keyboard_typing:0.166, siren:0.160, cat:0.157"
+test_00891,1,-5.0,0.527782185,False,vacuum_cleaner:1.000,"washing_machine:0.528, vacuum_cleaner:0.472"
+test_00892,1,10.0,0.530563845,False,vacuum_cleaner:1.000,"washing_machine:0.531, vacuum_cleaner:0.469"
+test_00893,2,10.0,1.0,False,"vacuum_cleaner:0.502, hen:0.498",washing_machine:1.000
+test_00894,3,0.0,0.52851499,True,"vacuum_cleaner:0.471, train:0.381, siren:0.147","vacuum_cleaner:0.501, washing_machine:0.499"
+test_00895,3,10.0,0.785656,True,"vacuum_cleaner:0.620, frog:0.214, hen:0.165",frog:1.000
+test_00896,1,10.0,0.48934160000000004,True,vacuum_cleaner:1.000,"vacuum_cleaner:0.511, washing_machine:0.489"
+test_00897,2,-5.0,0.8785255,False,"vacuum_cleaner:0.688, pig:0.312","frog:0.150, keyboard_typing:0.150, hen:0.150, siren:0.146, washing_machine:0.144"
+test_00898,1,0.0,1.0,False,vacuum_cleaner:1.000,"clock_alarm:0.360, frog:0.322, washing_machine:0.318"
+test_00899,1,-5.0,0.6416814,True,vacuum_cleaner:1.000,"vacuum_cleaner:0.358, washing_machine:0.346, train:0.295"
+test_00900,3,10.0,0.38888500000000004,True,"vacuum_cleaner:0.611, rooster:0.213, frog:0.176",vacuum_cleaner:1.000
+test_00901,3,-5.0,0.79231351,False,"vacuum_cleaner:0.681, hen:0.208, pig:0.112","washing_machine:0.356, train:0.341, hen:0.303"
+test_00902,3,10.0,0.37068194499999996,True,"vacuum_cleaner:0.590, rooster:0.329, washing_machine:0.081","vacuum_cleaner:0.548, washing_machine:0.452"
+test_00903,1,10.0,0.0,True,vacuum_cleaner:1.000,vacuum_cleaner:1.000
+test_00904,3,0.0,0.506962045,False,"vacuum_cleaner:0.563, rooster:0.334, siren:0.104","hen:0.221, vacuum_cleaner:0.211, washing_machine:0.204, siren:0.186, rooster:0.178"
+test_00905,3,10.0,0.48409861,True,"vacuum_cleaner:0.575, clock_tick:0.341, train:0.084","vacuum_cleaner:0.516, washing_machine:0.484"
+test_00906,2,10.0,0.78956534,False,"vacuum_cleaner:0.833, rooster:0.167","frog:0.221, vacuum_cleaner:0.210, washing_machine:0.203, cat:0.185, cow:0.180"
+test_00907,3,-5.0,0.7726489999999999,True,"vacuum_cleaner:0.449, washing_machine:0.324, sheep:0.227","sheep:0.538, cow:0.462"
+test_00908,2,-5.0,0.786616,True,"vacuum_cleaner:0.787, dog:0.213",dog:1.000
+test_00909,1,0.0,0.52226397,False,vacuum_cleaner:1.000,"washing_machine:0.522, vacuum_cleaner:0.478"
+test_00910,1,0.0,0.498873785,True,vacuum_cleaner:1.000,"vacuum_cleaner:0.501, washing_machine:0.499"
+test_00911,2,0.0,0.574449,True,"vacuum_cleaner:0.574, clock_tick:0.426",clock_tick:1.000
+test_00912,1,10.0,0.4499117,True,washing_machine:1.000,"washing_machine:0.550, vacuum_cleaner:0.450"
+test_00913,2,0.0,0.6293020100000001,True,"washing_machine:0.648, frog:0.352","washing_machine:0.371, vacuum_cleaner:0.317, hen:0.312"
+test_00914,1,0.0,0.0,True,washing_machine:1.000,washing_machine:1.000
+test_00915,2,10.0,0.430399,True,"washing_machine:0.570, glass_breaking:0.430",washing_machine:1.000
+test_00916,2,10.0,0.25969914000000005,True,"washing_machine:0.789, clock_alarm:0.211","washing_machine:0.530, clock_alarm:0.470"
+test_00917,2,0.0,0.37919585499999997,True,"washing_machine:0.672, sheep:0.328","sheep:0.360, cow:0.347, washing_machine:0.293"
+test_00918,1,-5.0,0.768645445,False,washing_machine:1.000,"can_opening:0.282, clock_tick:0.244, mouse_click:0.243, washing_machine:0.231"
+test_00919,2,10.0,0.501726985,True,"washing_machine:0.502, cow:0.498","cow:0.531, sheep:0.469"
+test_00920,3,10.0,0.27476900000000004,True,"washing_machine:0.725, door_wood_knock:0.171, glass_breaking:0.104",washing_machine:1.000
+test_00921,1,-5.0,0.48550607999999995,True,washing_machine:1.000,"washing_machine:0.514, train:0.486"
+test_00922,1,0.0,0.0,True,washing_machine:1.000,washing_machine:1.000
+test_00923,3,-5.0,1.0,False,"washing_machine:0.557, hen:0.315, glass_breaking:0.128",train:1.000
+test_00924,3,0.0,0.8662960199999999,False,"washing_machine:0.734, frog:0.134, rooster:0.133","hen:0.377, frog:0.319, siren:0.304"
+test_00925,3,10.0,0.52339607,False,"washing_machine:0.706, keyboard_typing:0.189, cow:0.105","train:0.523, washing_machine:0.477"
+test_00926,1,10.0,0.0,True,washing_machine:1.000,washing_machine:1.000
+test_00927,1,0.0,0.0,True,washing_machine:1.000,washing_machine:1.000
+test_00928,2,10.0,0.322993,True,"washing_machine:0.677, door_wood_knock:0.323",washing_machine:1.000
+test_00929,2,-5.0,0.14559338,True,"washing_machine:0.601, frog:0.399","frog:0.545, washing_machine:0.455"
+test_00930,2,0.0,0.18944499999999997,True,"washing_machine:0.811, can_opening:0.189",washing_machine:1.000
+test_00931,1,10.0,1.0,False,washing_machine:1.000,train:1.000
+test_00932,1,0.0,0.0,True,washing_machine:1.000,washing_machine:1.000
+test_00933,3,-5.0,0.582376225,True,"washing_machine:0.518, train:0.384, hen:0.098","hen:0.351, mouse_click:0.330, washing_machine:0.319"
+test_00934,3,-5.0,0.7542316619999999,False,"washing_machine:0.375, dog:0.359, cow:0.267","hen:0.138, cat:0.132, siren:0.131, washing_machine:0.130, car_horn:0.122"
+test_00935,1,10.0,0.52722645,False,washing_machine:1.000,"vacuum_cleaner:0.527, washing_machine:0.473"
+test_00936,3,0.0,0.338681035,True,"washing_machine:0.492, train:0.406, keyboard_typing:0.101","train:0.344, frog:0.339, washing_machine:0.318"
+test_00937,3,0.0,0.6953765000000001,True,"washing_machine:0.553, cat:0.305, glass_breaking:0.143",cat:1.000
+test_00938,2,-5.0,0.675646,True,"washing_machine:0.676, dog:0.324",dog:1.000
+test_00939,3,0.0,0.737378,True,"washing_machine:0.638, cat:0.263, vacuum_cleaner:0.099",cat:1.000
+test_00940,2,-5.0,0.562701,False,"washing_machine:0.563, sheep:0.437","hen:0.555, sheep:0.445"
+test_00941,2,10.0,0.47701383,True,"washing_machine:0.830, clock_tick:0.170","washing_machine:0.523, vacuum_cleaner:0.477"
+test_00942,1,0.0,0.44797787,True,washing_machine:1.000,"washing_machine:0.552, vacuum_cleaner:0.448"
+test_00943,3,-5.0,0.693810215,True,"washing_machine:0.595, pig:0.311, frog:0.094","washing_machine:0.212, hen:0.210, siren:0.203, train:0.190, frog:0.185"
+test_00944,3,-5.0,0.654869585,False,"washing_machine:0.568, car_horn:0.221, mouse_click:0.211","train:0.349, washing_machine:0.345, hen:0.306"
+test_00945,3,-5.0,0.8979629999999998,True,"washing_machine:0.797, clock_alarm:0.102, rooster:0.101",clock_alarm:1.000
+test_00946,1,-5.0,0.62464163,True,washing_machine:1.000,"washing_machine:0.375, vacuum_cleaner:0.314, train:0.311"
+test_00947,3,10.0,0.48761503000000006,True,"washing_machine:0.731, vacuum_cleaner:0.155, glass_breaking:0.113","washing_machine:0.357, train:0.354, vacuum_cleaner:0.289"
+test_00948,1,0.0,0.0,True,washing_machine:1.000,washing_machine:1.000
+test_00949,2,10.0,0.5005777100000001,False,"washing_machine:0.666, dog:0.334","hen:0.501, washing_machine:0.499"
+test_00950,1,-5.0,0.66690479,False,washing_machine:1.000,"clock_tick:0.363, washing_machine:0.333, hen:0.304"
+test_00951,3,10.0,0.43317938,True,"washing_machine:0.400, dog:0.399, siren:0.201","dog:0.366, cow:0.336, siren:0.298"
+test_00952,3,10.0,0.890970985,True,"washing_machine:0.713, mouse_click:0.178, cat:0.109","cat:0.538, vacuum_cleaner:0.462"
+test_00953,1,0.0,0.49466955999999995,True,washing_machine:1.000,"washing_machine:0.505, vacuum_cleaner:0.495"
+test_00954,1,0.0,0.457993855,True,washing_machine:1.000,"washing_machine:0.542, vacuum_cleaner:0.458"
+test_00955,1,10.0,0.485816585,True,washing_machine:1.000,"washing_machine:0.514, vacuum_cleaner:0.486"
+test_00956,2,0.0,0.49010069999999994,True,"washing_machine:0.674, can_opening:0.326","washing_machine:0.510, mouse_click:0.490"
+test_00957,3,0.0,0.8229464350000001,False,"washing_machine:0.620, can_opening:0.246, door_wood_knock:0.134","frog:0.177, washing_machine:0.177, keyboard_typing:0.174, train:0.172, hen:0.151"
+test_00958,2,10.0,0.644591255,False,"washing_machine:0.871, rooster:0.129","hen:0.278, rooster:0.251, frog:0.245, washing_machine:0.226"
+test_00959,1,0.0,0.0,True,washing_machine:1.000,washing_machine:1.000
