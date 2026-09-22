@@ -105,32 +105,45 @@ pip install -r requirements.txt
     
     Replace the paths accordingly
 
-    time python final_predict.py \
-    --esc50-root /scratch/s5284664/ESC-50-master \
-    --library-manifest field_queries/manifest_library.csv \
-    --query-manifest field_queries/manifest_test.csv \
-    --query-dir field_queries/test \
-    --output results/final/predictions_test.csv
+    time python final_predict.py --esc50-root /scratch/s5284664/ESC-50-master --library-manifest field_queries/manifest_library.csv --query-manifest field_queries/manifest_test.csv --query-dir field_queries/test --output results/final/predictions_test.csv
 
+    
+    
     **Zero shot evaluation**
     
-    time python final_predict.py \
-    --esc50-root /scratch/s5284664/ESC-50-master \
-    --library-manifest results/final/manifest_library_25.csv \
-    --query-manifest field_queries/manifest_test_late.csv \
-    --query-dir field_queries/test_late \
-    --output results/final/predictions_test_late.csv
+    time python final_predict.py --esc50-root /scratch/s5284664/ESC-50-master --library-manifest results/final/manifest_library_25.csv --query-manifest field_queries/manifest_test_late.csv 
+    --query-dir field_queries/test_late  --output results/final/predictions_test_late.csv
 
-    This also gives the total evalaution time 
+    This also gives the total evaluation time 
 
+   
     **Failure Analysis**
     
     python analyze_failures.py
 
-    # ABLATION STUDY USING AudioMAE
+    
+    
+    #ABLATION STUDY USING AudioMAE
 
     AudioMAE also uses the same datasets and folds genearted . Uses the pretrained model from 
-    https://github.com/facebookresearch/AudioMAE the ViT-B, AS-2M pretrained. Store the pretrained weights from the repo and use teh       path of this 
+    https://github.com/facebookresearch/AudioMAE the ViT-B, AS-2M pretrained. Store the pretrained weights from the repo and use the path of this in the code. Move to teh folder
+
+    git clone https://github.com/facebookresearch/AudioMAE.git external/AudioMAE
+
+    Use the path in here  checkpoint="ckpt/pretrained.pth", in audiomae_encoder.py
+
+    cd AudioMAE
+
+    Create the cached embeddings by running python cache_dev_embeddings.py
+
+    Execute the experiments by modifying the experiments as done using CLAP
+
+    Startegy 1 ----->. python evaluate_baseline.py 
+
+    Startegy 2------> python evaluate_max8.py
+
+    Strategy 3------> python evaluate_top2.py
+    
 
     
 
